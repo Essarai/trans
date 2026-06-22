@@ -14,10 +14,10 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
@@ -28,14 +28,14 @@ jobs:
           pip install pyinstaller
 
       - name: Build EXE with PyInstaller
-        run: |
-          pyinstaller --noconsole --onefile --name trans-converter ^
-            --hidden-import openpyxl ^
-            --collect-all PyQt6 ^
-            converter_gui.py
+        run: >
+          pyinstaller --noconsole --onefile --name trans-converter
+          --hidden-import openpyxl
+          --collect-all PyQt6
+          converter_gui.py
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: windows-exe
           path: code/dist/trans-converter.exe
