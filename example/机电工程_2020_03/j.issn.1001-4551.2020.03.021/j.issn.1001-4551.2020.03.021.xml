@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.021</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>自动化、计算机技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Automation and Computer Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>S27</subject><subject>TP273</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>风光互补空气集水系统设计</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Design of air water collection system with complementary scenery</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>竟静静</string-name>
+<string-name xml:lang="en">JING Jing-jing</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>竟静静(1988-),女,河南虞城人,硕士,讲师,主要从事新能源科学与工程、电气工程方面的研究。E-mail: <email>1430919661@qq.com</email>。</p></bio>
+<email>1430919661@qq.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王玉巍</string-name>
+<string-name xml:lang="en">WANG Yu-wei</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>曾德千</string-name>
+<string-name xml:lang="en">ZENG De-qian</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>新疆工程学院能源工程学院,新疆乌鲁木齐830023</aff>
+<aff xml:lang="en"><label>1</label>College of Energy Engineering,Xinjiang Institute of Engineering,Urumqi 830023,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>红云红河烟草(集团)有限责任公司新疆卷烟厂,新疆乌鲁木齐830023</aff>
+<aff xml:lang="en"><label>2</label>Xinjiang Cigarette Factory,Hongyun Honghe Tobacco(group)Co.,Ltd.,Urumqi 830023,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>332</fpage>
+<lpage>336</lpage>
+<abstract><p>针对新疆各地区干旱缺水、灌溉困难的问题,设计了一种风光互补空气集水系统,用以收集农田中因植物的蒸腾作用以及灌溉的蒸发作用形成的湿空气。依据空气动力学设计了空气收集单元,通过对比系统冷凝方式论证了可行性,计算确定了冷凝单元的安装位置为地下80 cm;通过3DMAX建立了系统各单元模型,并依据此制作了实物;利用C语言在单片机上编写了集水灌溉程序;通过假设理想数据,计算了理想状态下空气集水量;最后进行试验测得了实际数据,并分析了实际集水量和理论集水量有差距的原因。研究结果表明:该系统的实际集水量为理论集水量的57%,说明该系统在农业灌溉、无人区用水等方面具有较好应用前景。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problem that it is difficult to indrought in Xinjiang due to dry climate and water shortage, a wind and solar hybrid air catching system was designed to collecte the wet air formed by transpiration of plants and evaporation of irrigation in the field. The collection unit by aerodynamic was designed,the system feasibility was demonstrate by compared different condensation methods, the installation position of the condensing unit was determined to be 80 cm underground.The modes of the system was established by 3 DMAX and the physical object was made according to it.The water collecting irrigation program was compiled on the single chip microcomputer by using C language,and the air water collection under the ideal state was calculated by assuming the ideal data. Finally, the experimental data were measured, and the reasons for the gap between the actual water collection and the theoretical water collection were analyzed. The results indicate that the actual water collection of the system is 57% of the theoretical water collection,it has good development prospect in the field of agricultural irrigation and air water collection in no man’s land.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>风光互补</kwd><kwd>空气集水</kwd><kwd>自动灌溉</kwd><kwd>露点</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>wind-solar complementarity</kwd><kwd>air collects water</kwd><kwd>automatic irrigation</kwd><kwd>dew point</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>新疆维吾尔自治区教育厅自然科学青年项目</funding-source>
+<award-id>XJEDU2019Y065</award-id></award-group>
+<award-group>
+<funding-source>新疆工程学院校内项目</funding-source>
+<award-id>2018xgy112105</award-id></award-group>
+<funding-statement>新疆维吾尔自治区教育厅自然科学青年项目(XJEDU2019Y065)；新疆工程学院校内项目(2018xgy112105)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

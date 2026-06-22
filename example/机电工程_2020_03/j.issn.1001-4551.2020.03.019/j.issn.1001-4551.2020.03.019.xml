@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.019</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>自动化、计算机技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Automation and Computer Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH181</subject><subject>TP249</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>多规格箱体码垛工作站的设计与实现</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Design and implementation of multiple species box stacking workstation</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>焦鹏</string-name>
+<string-name xml:lang="en">JIAO Peng</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>焦鹏(1994-),男,安徽阜阳人,硕士研究生,主要从事工业机器人方面的研究。E-mail: <email>jpng@njtech.edu.cn</email></p></bio>
+<email>jpng@njtech.edu.cn</email>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>倪受东</string-name>
+<string-name xml:lang="en">NI Shou-dong</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>nsd@njtech.edu.cn</email>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>南京工业大学机械与动力工程学院,江苏南京210009</aff>
+<aff xml:lang="en"><label>1</label>School of Mechanical and Power Engineering,Nanjing Tech University,Nanjing 210009,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>倪受东,男,副教授,硕士生导师。E-mail: <email>nsd@njtech.edu.cn</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>321</fpage>
+<lpage>325</lpage>
+<abstract><p>针对码垛生产线适用范围单一的问题,设计了一套多规格箱体码垛工作站。根据码垛生产线的实际生产需求与生产作业空间,确定了码垛工作站的整体设计方案;采用欧姆龙NJ101-9020控制器为控制核心,实现了控制器对工业机器人及周边设备的运动和逻辑控制;设计了栈板码垛垛型,进行了箱体空间位姿分析,得到了箱体的空间位姿信息;在Roboguide中建立了码垛工作站模型,编写了初始码垛程序,进行了仿真分析,使用碰撞检测功能验证了码垛程序的正确性。研究结果表明:该码垛工作站扩大了码垛生产线的适用范围,提高了生产效率,实现了工序间的快速自动转换。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the single application scope of stacking production line, a set of multiple species box stacking workstation was designed. According to the actual production demand and production space of stacking production line, the overall design scheme of stacking workstation was determined. OMRON NJ101-9020 controller was adopted as the control core of control system to realize the motion and logic control of industrial robot and peripheral equipment. The stacking type of the stack board was designed, and the spatial position and pose of the box were analyzed, and the spatial position coordinates of the box were obtained. The stacking workstation model was established in Roboguide, according to the stacking path planning, the initial stacking program was written and simulated, and the collision detection function was used to verify the correctness of the stacking program. The results indicate that the stacking workstation expands the application scope of stacking production line, improves production efficiency, and realizes rapid automatic conversion between processes.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>码垛工作站</kwd><kwd>控制器</kwd><kwd>工业机器人</kwd><kwd>Roboguide</kwd><kwd>路径规划</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>stacking workstation</kwd><kwd>controller</kwd><kwd>industrial robot</kwd><kwd>Roboguide</kwd><kwd>path planning</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>江苏省科技计划资助项目</funding-source>
+<award-id>BY2016005-05</award-id></award-group>
+<funding-statement>江苏省科技计划资助项目(BY2016005-05)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.019</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机电一体化技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Mechatronics</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH-39</subject><subject>TG315.5</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于驱控一体的伺服压力机控制系统研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Servo press control system based on integrated drive and control technology</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>汪宇其</string-name>
+<string-name xml:lang="en">WANG Yu-qi</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>汪宇其(1994-),男,江苏南京人,硕士研究生,主要从事伺服压机控制系统方面的研究。E-mail: <email>15051975237@163.com</email>。</p></bio>
+<email>15051975237@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李泽源</string-name>
+<string-name xml:lang="en">Li Ze-yuan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李向国</string-name>
+<string-name xml:lang="en">LI Xiang-guo</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>朱灯林</string-name>
+<string-name xml:lang="en">ZHU Deng-lin</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>梅志千</string-name>
+<string-name xml:lang="en">MEI Zhi-qian</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>河海大学机电工程学院,江苏常州213022</aff>
+<aff xml:lang="en"><label>1</label>College of Mechanical and Electrical Engineering,Hohai University,Changzhou 213022,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>固高科技运动控制研究院,广东深圳518057</aff>
+<aff xml:lang="en"><label>2</label>Googol Technology Motion Control Research Institute,Shenzhen 518057,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>438</fpage>
+<lpage>445</lpage>
+<abstract><p>针对曲柄伺服压力机工作行程中,冲头滑块对电机轴等效转动惯量变化的问题,对伺服压力机电流环、速度环比例—积分(PI)控制器控制参数整定方法进行了研究。对曲柄滑块机构进行了运动学分析,确定了曲柄转角与滑块等效转动惯量之间的函数关系;提出了一种基于固高科技GTSD14系列智能驱动器的PI参数分段控制方法;在单个行程内根据曲柄处于不同位置区间时相对应的转动惯量,确定了控制器PI参数,以提升系统速度环、位置环的跟随性能;搭建了实验平台,以带有不同配重的伺服电机为对象进行了模拟实验。实验及研究结果表明:当系统实际惯量与控制器PI参数不匹配时,系统可以在线调整PI参数,使得电机速度环、位置环的跟随能力得到改善,从而验证了随着各段转动惯量变化而实时整定PI参数的可行性。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problem of changing moment of inertia to the motor shaft during a crank servo press's trip,the control parameters tuning method of proportional-integral(PI)controller for current loop and speed loop of servo press was studied.The kinematics analysis of the slider-crank mechanism was derived and the functional relationship between the crank angle and equivalent moment of inertia of the slider was defined.A piecewise control method for PI parameters based on the GTSD14 series intelligent drivers of Googol Technology Co.,Ltd.was proposed.In a single stroke,the PI parameters of the controller were determined according to the corresponding moment of inertia of the crank in different positions to improve the following performance of the speed and position loops of the system.An experiment platform was established and experiments taking a servo motor with different additional weights as a simulation object were carried out.The experimental results indicate that when the actual inertia of the system does not match the PI parameters of the controller,the system can adjust the PI parameters online,which improves the following ability of the motor speed loop and position loop,thus verifying the feasibility of adjusting the PI parameters in real time with the change of the moment of inertia of each segment.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>变转动惯量</kwd><kwd>几何关系确定被控对象</kwd><kwd>驱控一体</kwd><kwd>PI参数在线整定</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>variable moment of inertia</kwd><kwd>define control object model by geometric relationship</kwd><kwd>integrated drive and control</kwd><kwd>PI parameters online adjusting</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家自然科学基金资助项目</funding-source>
+<award-id>51375140</award-id></award-group>
+<funding-statement>国家自然科学基金资助项目(51375140)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

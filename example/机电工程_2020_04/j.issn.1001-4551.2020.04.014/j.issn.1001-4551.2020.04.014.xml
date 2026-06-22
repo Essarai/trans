@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.014</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH703</subject><subject>TP242.62</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于双向机器视觉的非透明模板副对准控制研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Alignment control of non-transparent mold plates based on bidirectional machine vision</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>刘传义</string-name>
+<string-name xml:lang="en">LIU Chuan-yi</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>刘传义(1994-),男,安徽阜阳人,硕士研究生,主要从事数控技术方面的研究。E-mail: <email>1319925056@qq.com</email>;通讯联系人:罗福源,副教授,硕士生导师。E-mail: <email>fuyuanluo@126.com</email>。</p></bio>
+<email>1319925056@qq.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>罗福源</string-name>
+<string-name xml:lang="en">LUO Fu-yuan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李树亚</string-name>
+<string-name xml:lang="en">LI Shu-ya</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>南京航空航天大学机电学院,江苏南京210016</aff>
+<aff xml:lang="en"><label>1</label>College of Mechanical and Electrical Engineering,Nanjing University of Aeronautics and Astronautics,Nanjing 210016,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>江苏诚睿达光电有限公司,江苏南京211111</aff>
+<aff xml:lang="en"><label>2</label>Jiangsu Chengruida Optronics Co.,Ltd.,Nanjing 211111,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>415</fpage>
+<lpage>419</lpage>
+<abstract><p>针对微电子封装中非透明模板的对准问题,对光路设计和准算法进行了研究,提出了一种双向机器视觉对准系统。通过架设一块与待对准模板平行的透明标定板来延伸模板尺寸,并将上、下两块模板分别置于不同的工位进行了摄影,从而克服了相机在狭窄空间无法安装,以及金属模板无法透视的问题,实现了间接对准,并开发了自动对准系统;系统以机器视觉为基础,通过双向视觉系统获取图像,分别采用图像匹配算法与Canny算子,对模板边缘图形进行了初提取与亚像素级二次提取,进而通过坐标转换,间接计算出了模板副的平面位置偏差,并用于驱动XYR工作台进行了对准控制。实验结果表明:该系统可以在实际操作环境中实现非透明模板副的高精度自动对准功能。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the alignment problem of non-transparent template in microelectronic packaging,the optical design and alignment algorithm were researched,and the bidirectional machine vision alignment system was proposed.The sizes of mold plates were extended by setting up a transparent calibration plate parallel to mold plates to be aligned,and the upper and the lower mold plate were placed in different position for photograph.The problem that the camera could not be installed in narrow space and the metal mold plates were not perspective were overcome,which realized the indirect alignment,and an automatic alignment system was developed.Based on machine vision,the images were acquired through bidirectional vision system and the edge images of mold plate were extracted by the image matching algorithm and Canny operator respectively for the initial extraction and the second extraction at the sub-pixel level.Then the planimetric position error of mold plate pair was calculated indirectly through coordinate transformation,and the error was used to drive XYR workbench for alignment control.The experimental results show that the high precision automatic alignment of the non-transparent mold plates can be realized in practical operation environment.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>机器视觉</kwd><kwd>双向视觉系统</kwd><kwd>自动对准</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>machine vision</kwd><kwd>bidirectional vision system</kwd><kwd>automatic alignment</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>江苏省自然科学基金优秀青年基金资助项目</funding-source>
+<award-id>BK20160084</award-id></award-group>
+<award-group>
+<funding-source>南京市产学研后补助项目</funding-source>
+<award-id>201722014</award-id></award-group>
+<funding-statement>江苏省自然科学基金优秀青年基金资助项目(BK20160084)；南京市产学研后补助项目(201722014)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

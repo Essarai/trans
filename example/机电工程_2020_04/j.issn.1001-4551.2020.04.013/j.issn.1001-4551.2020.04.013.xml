@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.013</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH161.1</subject><subject>TH741.3</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于声发射分析的磨料流光整加工在线检测试验研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>On-line testing of abrasive flow finishing based on AE analysis</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>杜璟琳</string-name>
+<string-name xml:lang="en">DU Jing-lin</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+<bio><heading>作者简介：</heading><p>杜璟琳(1994-),女,河南三门峡人,硕士研究生,主要从事光整加工方面的研究。E-mail: <email>645936127@qq.com</email></p></bio>
+<email>645936127@qq.com</email>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>董志国</string-name>
+<string-name xml:lang="en">DONG Zhi-guo</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>dong_zhiguo@126.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>姚新改</string-name>
+<string-name xml:lang="en">YAO Xin-gai</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>张鹏</string-name>
+<string-name xml:lang="en">ZHANG Peng</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>太原理工大学机械与运载工程学院,山西太原030024</aff>
+<aff xml:lang="en"><label>1</label>College of Mechanical and Vehicle Engineering,Taiyuan University of Technology,Taiyuan 030024,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>精密加工山西省重点实验室,山西太原030024</aff>
+<aff xml:lang="en"><label>2</label>Shanxi Provincial Key Laboratory of Precision Machining,Taiyuan 030024,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>董志国,男,博士,副教授。E-mail: <email>dong_zhiguo@126.com</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>410</fpage>
+<lpage>414</lpage>
+<abstract><p>针对磨料流光整加工中孔类零件表面粗糙度在线检测困难的问题,将声发射检测技术应用到了磨料流加工中。通过研究磨料流加工过程中的声发射源与声发射特性,利用参数分析法得到了波形特征参数随加工时间的变化曲线,建立了声发射信号的能量及振铃计数与零件表面粗糙度之间的关系;根据幂率流体本构方程计算了壁滑速度,分析了壁滑速度对声发射信号能量的影响。研究结果表明:声发射信号能量和振铃计数随着表面粗糙度的增大而增大,且两者随表面粗糙度的变化规律基本相同;表面粗糙度是声发射信号发生变化的主要原因,随着表面粗糙度的减小,即使增大壁滑速度,声发射信号强度也会降低;声发射可用于磨料流加工孔类零件表面粗糙度的在线检测。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the difficulty of on-line measurement of surface roughness of hole parts in abrasive flow finishing,acoustic emission detection technology was applied to abrasive flow machining.The source and characteristics of AE signal in abrasive flow processing were studied.The curve of waveform characteristic parameters varying with processing time was obtained by parameter analysis method,and the relationship between the energy and the number of rings of AE signal and the surface roughness of parts was established.According to the constitutive equation of power-rate fluid,the wall slip velocity was calculated,and the influence of wall slip velocity on AE signal was analyzed.The results indicate that the energy and ringing count of AE signal reduces with the increase of surface roughness,and the change rule of them is basically same with that of surface roughness.The surface roughness is the main reason for the change of AE signal.As the surface roughnessdecreases,the intensity of AE signal reduces even if the wall slip velocity is increased.Acoustic emission can be used for on-line surface roughness measurement of abrasive flow machining holes.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>磨料流加工</kwd><kwd>声发射检测</kwd><kwd>表面粗糙度</kwd><kwd>壁滑速度</kwd><kwd>孔类零件</kwd><kwd>声发射信号强度</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>abrasive flow machining(AFM)</kwd><kwd>acoustic emission(AE)detection</kwd><kwd>surface roughness</kwd><kwd>wall slip velocity</kwd><kwd>hole parts</kwd><kwd>intensity of AE signal</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>山西省自然科学基金资助项目</funding-source>
+<award-id>201701D121074</award-id></award-group>
+<funding-statement>山西省自然科学基金资助项目(201701D121074)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

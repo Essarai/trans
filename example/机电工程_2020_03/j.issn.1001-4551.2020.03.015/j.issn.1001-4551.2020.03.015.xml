@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.015</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH871.3</subject><subject>TH140</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>声发射信号降噪及在裂纹检测中的应用研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>De-nosing of acoustic emission signal and its application in crack detection</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王兴路</string-name>
+<string-name xml:lang="en">WANG Xing-lu</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>王兴路(1986-),男,江苏徐州人,博士,讲师,主要从事机械结构疲劳可靠性与检测方面的研究。E-mail: <email>wangxinglu816@163.com</email>。</p></bio>
+<email>wangxinglu816@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>上官望义</string-name>
+<string-name xml:lang="en">SHANGGUAN Wang-yi</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>赵坤</string-name>
+<string-name xml:lang="en">ZHAO Kun</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>西安航空学院车辆工程学院,陕西西安710077</aff>
+<aff xml:lang="en"><label>1</label>School of Vehicle Engineering,Xi an Aeronautical University,Xi an 710077,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>303</fpage>
+<lpage>306,331</lpage>
+<abstract><p>针对采用声发射技术评估疲劳裂纹断裂状态时存在噪声干扰,以及采用小波包阈值降噪方法或集合经验模态分解降噪方法处理信号时会受到阈值选取、模态分量等因素的影响等问题,对上述两种降噪方法的工作原理进行了分析。提出了将两者相结合的声发射信号降噪方法,根据声发射信号处理流程可分为IMF-WPT降噪方法、WPT-EEMD降噪方法和EEMD-WPT降噪方法;利用以上3种降噪方法对同一模拟含噪声疲劳断裂声发射信号进行了降噪处理,分别计算了降噪处理后信号的信噪比和失真度;分别进行了金属材料和焊接结构疲劳裂纹扩展试验,利用WPT-EEMD降噪方法对采集声发射信号进行了降噪处理。研究结果表明:WPT-EEMD降噪方法降噪后的信号信噪比为10.32,失真度为0.31%,降噪效果最好;该方法可以有效去除高频噪声的干扰,提高分析结果的可靠性。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problem of noise interference when using acoustic emission technology to evaluate the fatigue fracture state of crack propagation, the results are affected by the factors such as threshold selection and modal component when the signal is processed by WPT or EEMD, the working principle of the two de-nosing methods was analyzed. A new de-nosing method combined WPT and EEMD was proposed, the method includes IMF-WPT de-nosing method, WPD-EEMD de-nosing method and EEMD-WPT de-nosing method. A simulated fatigue fracture signal with noise was de-noised by three kinds of de-nosing methods, the signal-to-noise ratio and the distorition of the de-nosing signal were calculated. Fatigue crack propagation tests of metal materials and welding structures were carried out, acoustic emission of fatigue crack propagation was de-noised by WPT-EEMD de-nosing method.The results indicate that de-nosing signal with signal-to-noise ratio of 10.32 and distortion of 0.31% obtained by WPT-EEMD de-nosing method, the WPT-EEMD method has the best de-nosing effect. The high frequency noise can be removed effectively and the reliability of the analysis results can be improved.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>声发射信号</kwd><kwd>降噪</kwd><kwd>WPT-EEMD</kwd><kwd>疲劳裂纹扩展</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>acoustic emission signal</kwd><kwd>de-nosing</kwd><kwd>WPT-EEMD</kwd><kwd>fatigue crack propagation</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>陕西省自然科学基础研究项目</funding-source>
+<award-id>2016JM5067</award-id></award-group>
+<award-group>
+<funding-source>西安航空学院博士研究基金资助项目</funding-source>
+<award-id>2018KY0211</award-id></award-group>
+<award-group>
+<funding-source>西安航空学院自然科学研究基金资助项目</funding-source>
+<award-id>2019KY1227</award-id></award-group>
+<funding-statement>陕西省自然科学基础研究项目(2016JM5067)；西安航空学院博士研究基金资助项目(2018KY0211)；西安航空学院自然科学研究基金资助项目(2019KY1227)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

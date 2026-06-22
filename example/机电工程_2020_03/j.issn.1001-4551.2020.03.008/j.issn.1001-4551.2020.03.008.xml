@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.008</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH692</subject><subject>TH113.1</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于配载划分的穿梭式立体货架抗震性能研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Seismic performance of shuttle stereo shelf based on load distribution</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>郭杰文</string-name>
+<string-name xml:lang="en">GUO Jie-wen</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>郭杰文(1995-),男,山西临汾人,硕士研究生,主要从事智能制造方面的研究。E-mail: <email>511216790@qq.com</email></p></bio>
+<email>511216790@qq.com</email>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>甘屹</string-name>
+<string-name xml:lang="en">GAN Yi</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>ganyi@usst.edu.cn</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>孙福佳</string-name>
+<string-name xml:lang="en">SUN Fu-jia</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>上海理工大学机械工程学院,上海200093</aff>
+<aff xml:lang="en"><label>1</label>College of Mechanical Engineering,University of Shanghai for Science and Technology,Shanghai 200093,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>甘屹,男,博士,教授,博士生导师。E-mail: <email>ganyi@usst.edu.cn</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>264</fpage>
+<lpage>270</lpage>
+<abstract><p>针对现有立体仓库存在由于货物分布不均而导致的货架失稳问题,从货物分布的角度对穿梭式立体货架的抗震性能进行了研究。制定了不同的货载占比,研究了货架偏心与重心变化;运用有限元理论分析了不同货载工况下货架的模态振型规律,并施加了两个方向的地震激励,研究了货架在不同货载下的地震响应;通过增加拉杆和钢结构,并用伪静力振动实验法对比了顶部拉杆、Z向拉杆和侧围钢架3种不同抗震性能增强方案。研究结果表明:入库方向货架变形与沿巷道方向堆放货品的货架最大偏心有关,纵向码货的货品位置比货品重量对货架稳定性影响更大,穿梭式货架立柱顶部变形明显,且入库方向的货架稳定性较敏感;利用侧围钢架可明显改善货架抗震性能。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problem of shelf instability caused by uneven distribution of goods in the existing three-dimensional warehouse, the seismic performance of the shuttle-type three-dimensional shelf was studied from the perspective of cargo distribution. Different cargo load ratios were formulated to study the eccentricity and center of gravity of the shelf.The finite element theory was used to study the mode shape of the shelf under different load conditions and the earthquake was applied in two directions to study the seismic response of shelves under different loads.By adding the tie rod and steel structure, and using the pseudo-static vibration experiment method, three different seismic performance enhancement schemes of the top tie rod, the Z-direction tie rod and the side wall steel frame were compared. The results indicate that the deformation of the shelf in the storage direction is related to the maximum eccentricity of the shelves stacked in the direction of the roadway, and the position of the vertically stacked goods has a greater influence on the shelf stability than the weight of the goods. The top of the shuttle shelf column is obviously deformed, and the shelf stability in the storage direction is sensitive. The side wall steel frame can significantly improve the seismic performance of the shelf.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>穿梭式立体仓库</kwd><kwd>货物分布原则</kwd><kwd>抗震性能</kwd><kwd>有限元理论</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>shuttle warehouse</kwd><kwd>cargo distribution principle</kwd><kwd>seismic performance</kwd><kwd>finite element method</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家自然科学基金资助项目</funding-source>
+<award-id>51375314</award-id></award-group>
+<funding-statement>国家自然科学基金资助项目(51375314)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

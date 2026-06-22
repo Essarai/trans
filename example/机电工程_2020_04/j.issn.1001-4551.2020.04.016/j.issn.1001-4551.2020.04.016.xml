@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.016</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH113.1</subject><subject>TP273.2</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于RBF的主动悬架反演滑模控制策略研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Active suspension inversion sliding mode control strategy based on RBF</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李雅琦</string-name>
+<string-name xml:lang="en">LI Ya-qi</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>李雅琦(1995-),女,吉林通化人,硕士研究生,主要从事汽车系统动力学与控制方面的研究。E-mail: <email>609817607@qq.com</email>.</p></bio>
+<email>609817607@qq.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李伟</string-name>
+<string-name xml:lang="en">LI Wei</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>陈应鹏</string-name>
+<string-name xml:lang="en">CHEN Ying-peng</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>郑柱</string-name>
+<string-name xml:lang="en">ZHENG Zhu</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>重庆交通大学机电与车辆工程学院,重庆400074</aff>
+<aff xml:lang="en"><label>1</label>School of Electrical and Mechanical Engineering,Chongqing Jiaotong University,Chongqing 400074,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>425</fpage>
+<lpage>428</lpage>
+<abstract><p>为了使汽车悬架系统得到更好的动态响应和优化控制,将径向基神经网络(RBF)算法应用到了反演滑模控制策略中。建立了C级随机路面激励与2自由度1/4汽车悬架系统模型之间的关系;建立了主动悬架系统运动状态方程,对车辆垂直加速度、悬架动挠度和轮胎动位移等悬架系统评价指标进行了研究;提出了一种基于径向基神经网络(RBF)算法的反演滑模控制策略;在Matlab/CARSIM联合仿真平台,对2自由度1/4汽车悬架系统模型和RBF反演滑模控制策略进行了仿真试验。研究结果表明:以C级随机路面为激励的条件下,此控制策略使车身加速度降低了34.7%,悬架动挠度降低了28%,轮胎动位移降低了28.7%,提升了悬架的动态性能和控制性能。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>In order to improve the dynamic performance and optimization control of active suspension,the radial basis function neural network algorithm was applied in inversion of sliding mode control strategy.The C-class random road excitation and 2 degrees with 1/4 vehicle suspension system model were established,and the equation of state of motion of active suspension system was established.The evaluation indexes of vehicle vertical acceleration,suspension dynamic deflection and tire dynamic displacement were studied,the RBF inversion of sliding mode control strategy was designed.The 2 degrees with 1/4 vehicle suspension system model and the RBF inversion of sliding mode control strategy were verified using the Matlab/CARSIM software.The results show that under the condition of C-class random road excitation,this control strategy reduced the acceleration of car body by 34.7%,the dynamic deflection of suspension by 28%,and the dynamic displacement of tire by 28.7%.It improves the dynamic performance and control performance of the suspension.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>控制策略</kwd><kwd>反演滑模</kwd><kwd>径向基神经网络</kwd><kwd>主动悬架</kwd><kwd>Matlab/CARSIM</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>control strategy</kwd><kwd>inversion sliding mode</kwd><kwd>radial basis function(RBF)neural network</kwd><kwd>active suspension</kwd><kwd>Matlab/CARSIM</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>重庆交通大学研究生教育创新基金资助项目</funding-source>
+<award-id>2019S0112</award-id></award-group>
+<funding-statement>重庆交通大学研究生教育创新基金资助项目(2019S0112)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

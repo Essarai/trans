@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.021</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>自动化、计算机技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Automation and Computer Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TP242</subject><subject>TH785</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>用于微创外科的线驱动连续型手术机器人设计与仿真研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Design and simulation of line-driven continuum surgical robot for minimally invasive surgery</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>赵亮</string-name>
+<string-name xml:lang="en">ZHAO Liang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+<bio><heading>作者简介：</heading><p>赵亮(1996-),男,甘肃陇南人,硕士研究生,主要从事手术机器人方面的研究。E-mail: <email>liangzhaoseu@outlook.com</email>。</p></bio>
+<email>liangzhaoseu@outlook.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>赵智远</string-name>
+<string-name xml:lang="en">ZHAO Zhi-yuan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>朱德勇</string-name>
+<string-name xml:lang="en">ZHU De-yong</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>刘闯</string-name>
+<string-name xml:lang="en">LIU Chuang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李毅</string-name>
+<string-name xml:lang="en">LI Yi</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>中国科学院长春光学精密机械与物理研究所空间机器人工程中心,吉林长春130033</aff>
+<aff xml:lang="en"><label>1</label>Space Robot Engineering Center,Changchun Institute of Optics,Fine Mechanics and Physics,Chinese Academy of Sciences,Changchun 130033,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>中国科学院大学材料科学与光电技术学院,北京100049</aff>
+<aff xml:lang="en"><label>2</label>College of Materials Science and Opto-ElectronicTechnology,University of Chinese Academy of Sciences,Beijing 100049,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>451</fpage>
+<lpage>455</lpage>
+<abstract><p>针对传统手术器械定位精度低,且难以进入人体自然腔道或微创切口的问题,设计了一种用于微创外科的线驱动连续型手术机器人系统。首先,介绍了该系统的各个部分模型,包括UR串联机械臂、Stewart并联平台、连续型末端执行器以及触觉式力反馈手柄;然后,对系统中的UR机械臂和连续型末端执行器进行了运动学分析,将分析的结果导入Matlab进行了仿真,得到了不同角度的UR机械臂操作空间位姿以及不同驱动线变化量的连续型末端执行器操作空间位姿;最后,利用蒙特卡罗法对连续型末端执行器的工作空间进行了仿真分析。研究结果表明:UR机械臂可以扩展系统的工作空间,连续型末端执行器可以灵活地进入狭小非线性手术环境,整个系统能帮助医生进行手术操作,提高医疗精度。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at low positioning accuracy and difficulty in entering the natural cavity or minimally invasive incision of traditional surgical instruments,a line-driven continuum surgical robot system was designed.Firstly,the composition of the system was introduced,including UR robot arm,Stewart parallel platform,the continuum end effector and force feedback handle.Then,the kinematic analysis of the UR robot arm and the continuum end effector in the system were carried out,and the analysis results were imported into Matlab for simulation.Thereby,the operating space pose of the UR robot arm with different angles and the end effector with different line variations were obtained.Finally,the Monte Carlo method was used to calculate the workspace of the continuum end effector.The results indicate that the UR robot arm expands the workspace of system,and the continuum end effector provides flexible access to a small,no-linear surgical environment.The entire system helps doctors perform surgical procedures and improve medical accuracy.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>微创外科</kwd><kwd>连续型机器人</kwd><kwd>手术机器人</kwd><kwd>蒙特卡罗法</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>minimally invasive surgery</kwd><kwd>continuum robot</kwd><kwd>surgical robot</kwd><kwd>Monte Carlo method</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家自然科学基金资助项目</funding-source>
+<award-id>11672290</award-id></award-group>
+<funding-statement>国家自然科学基金资助项目(11672290)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

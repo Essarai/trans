@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.001</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH133.36</subject><subject>TM3</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>多自由度电机中的气体静压球轴承特性分析</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Characteristic analysis of air bearing for multi-degree-of-freedom motor</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李争</string-name>
+<string-name xml:lang="en">LI Zheng</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>李争(1980-),男,河北石家庄人,博士,教授,博士生导师,主要从事特种电机及其控制方面的研究。E-mail: <email>Lzhfgd@163.com</email>。</p></bio>
+<email>Lzhfgd@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>杨凯</string-name>
+<string-name xml:lang="en">YANG Kai</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>刘令旗</string-name>
+<string-name xml:lang="en">LIU Ling-qi</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>杜磊</string-name>
+<string-name xml:lang="en">DU Lei</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>河北科技大学电气工程学院,河北石家庄050018</aff>
+<aff xml:lang="en"><label>1</label>School of Electrical Engineering,Hebei University of Science and Technology,Shijiazhuang 050018,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>337</fpage>
+<lpage>343</lpage>
+<abstract><p>针对多自由度电机采用传统关节轴承在三维运动时存在摩擦力高,且易产生机械碰撞的问题,提出了一种利用气体静压球轴承代替传统关节轴承作为支撑的多自由度电机。在对不同气体静压球轴承的特性进行了对比的基础上,选定了多孔气体静压球轴承;建立了气体静压球轴承的数学模型及COMSOL三维仿真模型;通过仿真计算,验证了解析法算法的准确性,并进一步分析了各类参数对轴承的承载能力、耗气量和静态刚度的影响。研究结果表明:节流孔数目、包角角度及供气压力,对气体静压球轴承性能都有直接影响,其节流孔最优分布角度为32°;该结果为气体静压球轴承的设计以及在多自由度电机中的应用提供了参考。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problem of high friction and easy mechanical collision of multi-degree-of-freedom motors using traditional joint bearings in three-dimensional motion,a multi-degree-of-freedom motor with a gas static pressure ball bearing instead of a conventional joint bearing was proposed.Comparing the characteristics of different gas static pressure ball bearings,porous gas static pressure ball bearings were selected.The mathematical model of the gas hydrostatic ball bearing and the COMSOL 3D simulation model were established.The accuracy of the analytical algorithm was verified by simulation calculation,and the influence of various parameters on the bearing capacity,air consumption and static stiffness of the bearing was further analyzed.The results indicate that the number of orifices,wrap angle and supply pressure have a direct impact on the performance of gas static ball bearings.The optimum distribution angle for the orifice is 32°.It provides a reference for the design of gas static pressure ball bearings and the application of multi-degree-of-freedom motors.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>多自由度电机</kwd><kwd>气体静压球轴承</kwd><kwd>数学模型</kwd><kwd>轴承性能</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>multi-degree-of-freedom motor</kwd><kwd>aerostatic ball bearing</kwd><kwd>mathematical model</kwd><kwd>bearing performance</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家自然科学基金资助项目</funding-source>
+<award-id>51577048</award-id><award-id>51877070</award-id><award-id>51637001</award-id></award-group>
+<award-group>
+<funding-source>河北省自然科学基金资助项目</funding-source>
+<award-id>E2018208155</award-id></award-group>
+<award-group>
+<funding-source>河北省人才工程培养资助项目</funding-source>
+<award-id>A201905008</award-id></award-group>
+<award-group>
+<funding-source>河北省高等学校科学技术研究重点项目</funding-source>
+<award-id>ZD2018228</award-id></award-group>
+<award-group>
+<funding-source>高节能电机及控制技术国家地方联合工程实验室开放课题基金资助项目</funding-source>
+<award-id>KFKT201804</award-id></award-group>
+<funding-statement>国家自然科学基金资助项目(51577048,51877070,51637001)；河北省自然科学基金资助项目(E2018208155)；河北省人才工程培养资助项目(A201905008)；河北省高等学校科学技术研究重点项目(ZD2018228)；高节能电机及控制技术国家地方联合工程实验室开放课题基金资助项目(KFKT201804)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.002</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH112</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>新型无耦合两转动并联机构运动学及性能分析</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Kinematics and performance analysis of a novel uncoupled 2-DOF rotational parallel mechanism</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王科明</string-name>
+<string-name xml:lang="en">WANG Ke-ming</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>王科明(1994-),男,河南开封人,硕士研究生,主要从事并联机器人理论方面的研究。E-mail: <email>wkmhkd@163.com</email></p></bio>
+<email>wkmhkd@163.com</email>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>张彦斌</string-name>
+<string-name xml:lang="en">ZHANG Yan-bin</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>yanbin_zh@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>荆献领</string-name>
+<string-name xml:lang="en">JING Xian-ling</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>陈子豪</string-name>
+<string-name xml:lang="en">CHEN Zi-hao</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>芦风林</string-name>
+<string-name xml:lang="en">LU Feng-lin</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>河南科技大学机电工程学院,河南洛阳471003</aff>
+<aff xml:lang="en"><label>1</label>School of Mechatronics Engineering,Henan University of Science and Technology,Luoyang 471003,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>张彦斌,男,教授,博士生导师。E-mail: <email>yanbin_zh@163.com</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>344</fpage>
+<lpage>350</lpage>
+<abstract><p>针对并联机构的强运动学耦合性问题,提出了一种新型无耦合二自由度转动并联机构。利用方位特征集法对机构进行了运动输出特性分析和自由度计算,利用驱动力螺旋理论和封闭矢量法推导了机构运动平台的姿态方程和角速度方程,根据机构分支运动链的运动螺旋系及其约束螺旋系的线性相关性,分析了机构的运动学奇异性,并给出了其奇异位形;推导出了机构运动条件指标与结构尺寸系数和输入角位移之间的关系式,讨论了机构满足运动学完全各向同性的结构条件,最后对机构运动学进行了仿真分析。研究结果表明:该并联机构具有无耦合运动学特性,尤其当其结构尺寸满足一定要求的情况下,其运动雅可比矩阵为单位阵,机构则具有完全各向同性的运动学特性。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the strong kinematic coupling problem of parallel mechanism,a novel uncoupled rotational parallel mechanism with two degrees of freedom was proposed.Its kinematical output characteristics were analyzed and mobility was calculated in terms of the position and orientation characteristics method.According to the actuated wrench screw theory and the closed vector approach,mathematical models of the posture and the angular velocity of the mechanism were established.Singularity analysis was performed based on the linear dependence of the kinematic screw system and constraint screw,respectively,and all singular configurations were given as well.The expression mapping the kinematical conditioning index and the structural factor,the input angular displacement was deduced.Structural condition of the fully-isotropic performance for the mechanism was discussed in detail.Finally,kinematical simulation of the mechanism was carried out.The results indicate that the mechanism has the uncoupled kinematics characteristics.Especially,when the structure size of the mechanism meets certain requirement,the velocity Jacobian is an identical matrix,therefore,the mechanism will show the fully isotropic performance.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>并联机构</kwd><kwd>运动学分析</kwd><kwd>奇异性</kwd><kwd>螺旋理论</kwd><kwd>无耦合</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>parallel mechanism</kwd><kwd>kinematics analysis</kwd><kwd>singularity</kwd><kwd>screw theory</kwd><kwd>uncoupled</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>河南省科技攻关计划项目</funding-source>
+<award-id>192102210221</award-id></award-group>
+<award-group>
+<funding-source>河南省高等学校重点科研项目基础研究计划项目</funding-source>
+<award-id>18A460001</award-id></award-group>
+<award-group>
+<funding-source>河南科技大学重大科技项目培育基金资助项目</funding-source>
+<award-id>2015XTD012</award-id></award-group>
+<award-group>
+<funding-source>河南科技大学研究生创新基金资助项目</funding-source>
+<award-id>CXJJ-2018-KJ03</award-id></award-group>
+<funding-statement>河南省科技攻关计划项目(192102210221)；河南省高等学校重点科研项目基础研究计划项目(18A460001)；河南科技大学重大科技项目培育基金资助项目(2015XTD012)；河南科技大学研究生创新基金资助项目(CXJJ-2018-KJ03)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

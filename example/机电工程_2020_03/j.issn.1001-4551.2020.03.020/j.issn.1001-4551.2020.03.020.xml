@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.020</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>自动化、计算机技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Automation and Computer Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TP242.6</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于深度学习的零件点云分割算法研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Part point cloud segmentation algorithm based on deep learning</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>陈境焕</string-name>
+<string-name xml:lang="en">CHEN Jing-huan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>陈境焕(1993-),男,广东湛江人,硕士研究生,主要从事深度学习、计算机视觉方面的研究。E-mail: <email>275923410@qq.com</email></p></bio>
+<email>275923410@qq.com</email>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>李海艳</string-name>
+<string-name xml:lang="en">LI Hai-yan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>Cathylhy@gdut.edu.cn</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>林景亮</string-name>
+<string-name xml:lang="en">LIN Jing-liang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>广东工业大学机电工程学院,广州广东510006</aff>
+<aff xml:lang="en"><label>1</label>School of Mechanical and Electrical Engineering,Guangdong University of Technology,Guangzhou 510006,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>李海艳,女,副教授,硕士生导师。E-mail: <email>Cathylhy@gdut.edu.cn</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>326</fpage>
+<lpage>331</lpage>
+<abstract><p>针对目前基于PointNet++的深度学习点云分割框架,对零件点云进行几何面级的分割精度不高的问题,对现有分割框架的采样算法、特征提取、特征传递进行了研究。运用了基于曲率的最远点采样算法,在零件面与面交界处获得了更多的采样点;结合了PointSIFT和PointCNN分割框架,采用了X变换矩阵,让点云特征具有空间转换不变性,SIFT组合选择了不同方向的近邻点进行组合;设计了SIFT-X卷积算子,能让网络编码不同方向的点云特征,提升了网络的表征能力从而提高分割精度。研究结果表明:上述方法能提高零件点云面要素分割的精度和mIoU值。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problem that the segmentation accuracy of point cloud based on PointNet++ are not high at geometric plane level, the sampling algorithm, feature extraction and feature transfer process of the existing segmentation framework were studied. The farthest point sampling algorithm based on curvature was used to obtain more sampling points at the junction of part surface and surface. Combining the PointSIFT and PointCNN segmentation frameworks, the X-transform matrix was used to make the point cloud features spatially invariant. Neighbors in different directions were selected for combination by SIFT grouping. The SIFT-X convolution operator was designed to allow the network to encode point cloud features in different directions, so the network representation ability was improved. The results indicate that the above methods can improve the accuracy and mIoU value of point cloud surface element segmentation.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>深度学习</kwd><kwd>点云分割</kwd><kwd>空间转换不变性</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>deep learning</kwd><kwd>point cloud segmentation</kwd><kwd>spatial transformation invariance</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家自然科学基金资助项目</funding-source>
+<award-id>51775116</award-id></award-group>
+<funding-statement>国家自然科学基金资助项目(51775116)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

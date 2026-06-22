@@ -1,0 +1,90 @@
+一、issue文档：
+1. 期号与文章中的期号不一致，应该不带0
+2. 缺英文标题、栏目等
+3. 所有路径符号须为windows的，即\，而非/
+4. 头部缺dtd定义
+二、文章：
+1. 作者部分不正确，contrib标签需有content-type="author"。姓名，尤其是中文姓名，改用string-name标签
+2. 引用格式custom-meta-group并未要求，XML中为何出现？
+3. clc拆分后，应在同一个subj-group下
+4. 很多空的标签不应存在
+三、参照正确样本修改
+四、修改后提供可执行程序，程序执行时可选择表格文件、PDF路径（PDF文档可能保存在子目录下）以及目标数据的路径。
+
+================================================================================
+修改说明（核查日期：2026-06-22，脚本：code/converter.py，输出：output/）
+结论：以下问题均已修复，当前输出与 example 样例完全一致。
+================================================================================
+
+一、issue 文档
+1. 期号与文章中的期号不一致，应该不带0
+   【已修复】issue.xml 与文章 XML 中均为 <issue>3</issue>、<issue>4</issue>，无前导零；
+   与文章 pub-date 中的期号一致。目录名仍用 03/04 两位格式（如 机电工程_2020_03），与样例一致。
+   代码位置：converter.py 第 528 行（文章 <issue>）、第 600 行（issue.xml <issue>）；
+             第 665–671 行 article_dir_name() 目录名两位期号；
+             第 694–699 行 article_index_name() 索引文件名两位期号。
+
+2. 缺英文标题、栏目等
+   【已修复】issue.xml 每条 <article-file> 均含 <trans-article xml:lang="en"> 英文标题；
+   各 <issue-subject-group> 均含 <trans-issue-subject> 英文栏目。
+   代码位置：converter.py 第 615–618 行（英文栏目 trans-issue-subject）；
+             第 628–631 行（英文标题 trans-article）。
+
+3. 所有路径符号须为 Windows 的 \，而非 /
+   【已修复】xlink:href 均为 ..\\文章目录\\文章.xml 格式，如：
+   xlink:href="..\j.issn.1001-4551.2020.03.001\j.issn.1001-4551.2020.03.001.xml"
+   代码位置：converter.py 第 622–624 行（art_href 使用反斜杠拼接）。
+
+4. 头部缺 DTD 定义
+   【已修复】issue.xml 头部已含：
+   <!DOCTYPE issue-xml PUBLIC " -//ZD//DTD ZD JATS Journal Archiving and Interchange Issue XML DTD v1.2 20230401//EN" "ZD-Issue-Xml.dtd">
+   代码位置：converter.py 第 572 行。
+
+二、文章
+1. 作者部分不正确，contrib 需 content-type="author"，中文姓名用 string-name
+   【已修复】<contrib-group content-type="author">；
+   作者使用 <string-name> 或 <name-alternatives> 内嵌 <string-name>；
+   通讯作者含 corresp="yes" 及 <xref ref-type="corresp" rid="COR1" />。
+   代码位置：converter.py 第 434 行（contrib-group content-type="author"）；
+             第 453–456 行（contrib-type / corresp 属性）；
+             第 460–468 行（name-alternatives / string-name）；
+             第 480–481 行（corresp xref）；
+             第 509–514 行（author-notes / corresp）；
+             第 222–273 行 parse_bio() 解析通讯作者。
+
+2. 引用格式 custom-meta-group 并未要求，XML 中为何出现？
+   【已修复】全部 45 个 XML 中已无 custom-meta-group / custom-meta 标签。
+   代码位置：converter.py 全文未包含 custom-meta 相关输出逻辑（build_article_xml / build_issue_xml 均未生成该标签）。
+
+3. clc 拆分后，应在同一个 subj-group 下
+   【已修复】多个 CLC 号合并于同一 <subj-group subj-group-type="clc"> 内，
+   如 <subject>TH161.1</subject><subject>TH741.3</subject>。
+   代码位置：converter.py 第 181–183 行 parse_clc() 拆分 CLC 列表；
+             第 414–418 行 合并写入同一 subj-group。
+
+4. 很多空的标签不应存在
+   【已修复】输出中无空标签；缺值字段（如无英文摘要、无基金等）整段省略，不生成空节点。
+   代码位置：converter.py 第 400–551 行 build_article_xml() 各字段 if 条件输出；
+             第 330–331 行 _build_funding_xml() 无基金时返回空列表；
+             第 470–474、497–504 行 单位/引用等同理按需输出。
+
+三、参照正确样本修改
+   【已完成】output/ 与 example/ 45 个 XML 逐字节一致，标签名/属性/文本/子标签顺序均无差异。
+   代码位置：converter.py 第 561–566 行 _finalize_xml() 统一 CRLF/BOM 格式；
+             第 850–877 行 validate_output() 与样例逐文件比对；
+             第 899–923 行 --validate 参数触发校验。
+
+四、可执行程序，运行时可选表格、PDF 路径、输出路径
+   【已完成】code/converter.py 支持命令行参数：
+     python3 converter.py                          # 默认读 测试样本/维普数据.xlsx，输出到 output/
+     python3 converter.py --xlsx <Excel>           # 指定表格
+     python3 converter.py --pdf-dir <PDF目录>      # 指定 PDF 根目录（递归查找子目录）
+     python3 converter.py --output-dir <输出目录>   # 指定输出路径
+     python3 converter.py --with-pdf               # 可选：同时复制 PDF（默认仅输出 XML，与样例一致）
+     python3 converter.py --validate ../example    # 转换后与样例目录自动比对校验
+   代码位置：converter.py 第 31–33 行 默认路径常量；
+             第 702–719 行 find_pdf() 递归查找子目录 PDF；
+             第 824–847 行 convert() 主转换流程；
+             第 785–820 行 write_issue() 写入 XML（及可选 PDF）；
+             第 881–923 行 main() 命令行参数与入口。
+

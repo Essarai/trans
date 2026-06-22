@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.014</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH871.4</subject><subject>TH131.6</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于安全自锁的扇形结构的摆锤式冲击试验机安全销系统研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Safety pin system of pendulum impact testing machine based on sector structure and safety self-locking</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王贵勇</string-name>
+<string-name xml:lang="en">WANG Gui-yong</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+<bio><heading>作者简介：</heading><p>王贵勇(1985-),男,贵州兴仁人,硕士,工程师,主要从事高通量材料性能测试装备方面的研究。E-mail: <email>guiyong_w16@163.com</email>。</p></bio>
+<email>guiyong_w16@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>朱林茂</string-name>
+<string-name xml:lang="en">ZHU Lin-mao</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>祝铁柱</string-name>
+<string-name xml:lang="en">ZHU Tie-zhu</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王海舟</string-name>
+<string-name xml:lang="en">WANG Hai-zhou</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王蓬</string-name>
+<string-name xml:lang="en">WANG Peng</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>赵雷</string-name>
+<string-name xml:lang="en">ZHAO Lei</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李冬玲</string-name>
+<string-name xml:lang="en">LI Dong-ling</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>钢铁研究总院,北京100081</aff>
+<aff xml:lang="en"><label>1</label>Central Iron&amp;Steel Research Institute,Beijing 100081,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>钢研纳克检测技术股份有限公司,北京100081</aff>
+<aff xml:lang="en"><label>2</label>NCS Testing Technology Co.,LTD.,Beijing 100081,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>298</fpage>
+<lpage>302</lpage>
+<abstract><p>针对摆锤式冲击试验机弹出式安全销的不足,以及冲击试验过程中摆锤意外释放可能对试验人员及设备带来伤害的问题,提出了一种具有安全自锁功能的扇形结构安全销系统。采用SolidWorks对安全销结构进行了设计,建立了冲击试验机控制系统的软件流程,设计了基于该扇形结构安全销系统防护的摆锤式冲击实验机,并进行了大量摆锤与安全销之间的破坏性撞击试验和冲击试验机的系统稳定性试验。研究结果表明:基于安全自锁功能的扇形结构安全销系统能有效防止摆锤意外释放及承受摆锤的反复撞击;研究结果可为开发与构建更高安全防护性能等级的摆锤式冲击试验机提供设计参考。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problems that the deficiency of pop-up safety of pendulum impact testing machine and the accidental release of pendulum can cause some potential harm to the tester and the equipment during the pendulum impact testing process, a safety pin system with sector structure and safety self-locking function was researched. The structure of safety pin was designed by using SolidWorks. The software flow of control system of pendulum impact testing machine was established. The pendulum impact testing machine based on the protection of the safety pin system was designed. A large number of destructive impact tests of between pendulum and safety pin and system stability tests of impact testing machine were conducted in the presented machine. The results indicate that the safety pin system based on sector structure and safety self-locking function can not only effectively prevent from the accidental release of the pendulum but also withstand the repeated impact of the pendulum,which can provide a reference for the development and construction of pendulum impact testing machine with a higher level of safety protection performance.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>摆锤</kwd><kwd>冲击试验机</kwd><kwd>安全销</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>pendulum</kwd><kwd>impact tester</kwd><kwd>safety pin</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家重点研发计划资助项目</funding-source>
+<award-id>2018YFB0704100</award-id></award-group>
+<funding-statement>国家重点研发计划资助项目(2018YFB0704100)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

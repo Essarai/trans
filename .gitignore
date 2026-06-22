@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 本地输出与大体量测试数据
+code/output/
+code/测试样本/PDF/
+
+# IDE
+.idea/
+.vscode/

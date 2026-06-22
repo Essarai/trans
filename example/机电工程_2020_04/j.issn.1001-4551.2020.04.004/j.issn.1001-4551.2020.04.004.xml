@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.004</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH122</subject><subject>U462.2</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>车门结构多目标轻量化研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Multi-objective lightweight research of a door structure</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>侯振方</string-name>
+<string-name xml:lang="en">HOU Zhen-fang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+<bio><heading>作者简介：</heading><p>侯振方(1993-),男,河南商丘人,硕士研究生,主要从事车身结构轻量化方面的研究。E-mail: <email>1074282655@qq.com</email></p></bio>
+<email>1074282655@qq.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>胡海欧</string-name>
+<string-name xml:lang="en">HU Hai-ou</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>张爱兵</string-name>
+<string-name xml:lang="en">ZHANG Ai-bing</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>zhangaibing@nbu.edu.cn</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李洪亮</string-name>
+<string-name xml:lang="en">LI Hong-liang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>霍俊焱</string-name>
+<string-name xml:lang="en">HUO Jun-yan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>宁波大学机械工程与力学学院,浙江宁波315211</aff>
+<aff xml:lang="en"><label>1</label>School of Mechanical Engineering and Mechanics,Ningbo University,Ningbo 315211,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>中国汽车技术研究中心有限公司,天津300300</aff>
+<aff xml:lang="en"><label>2</label>China Automotive Technologyand Research Center Co.,Ltd.,Tianjin 300300,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>张爱兵,男,副教授,硕士生导师。E-mail: <email>zhangaibing@nbu.edu.cn</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>359</fpage>
+<lpage>364</lpage>
+<abstract><p>针对现有结构多目标轻量化设计采用单一变量(如板件厚度为优化变量)的不足,将网格变形技术创建的形状变量引入到了车门结构多目标轻量化设计中,建立了以板件厚度与车门结构形状同时作为设计变量的参数化有限元模型。对该车门进行了动态试验测试,验证了有限元模型及计算结果的可靠性;考虑到该车门一阶频率过低的问题,将一阶频率最大、车门质量最小作为优化目标,垂向刚度、窗框刚度为约束,进行了试验设计(DOE),通过Kriging函数模型拟合了要优化的目标及约束,经过精度校验,验证了该近似函数模型符合精度要求;最后利用多目标遗传算法进行了寻优计算。研究结果表明:在垂向刚度、窗框刚度满足约束值的情况下,车门质量最终降低2.84 kg(减重达13%),一阶频率提高了25.8 Hz。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the shortage that the multi-objective lightweight design of the existing structure using a single variable(for example,the thickness of the plate is an optimization variable),the shape variable created by the mesh deformation technology was introduced into the multi-objective lightweight design of the door structure.The parametric finite element model was established as the design variable at the same time as the thickness of the plate and the shape of the door structure.Dynamic test on the door was carried out to verify the reliability of the finite element model and the calculation results.Because of the low first-order frequency of the door,the first-order frequency and the minimum door mass were taken as the optimization targets,the vertical stiffness and the frame stiffness were taken as the constraints,the experimental design(DOE)were carried out,the Kriging function model was used to fit the target and constraints to be optimized.After the accuracy check,it was verified that the approximate function model met meets accuracy requirements.Finally,the multi-objective genetic algorithm was used for optimization calculation.The results show that the door quality is finally reduced by 2.84 kg(13%weight loss),and the first-order frequency is increased by 25.8 Hz when the vertical stiffness and the frame stiffness satisfy the constraint value.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>车门刚度</kwd><kwd>轻量化</kwd><kwd>形状变量</kwd><kwd>网格变形</kwd><kwd>多目标优化</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>door stiffness</kwd><kwd>lightweight</kwd><kwd>shape variable</kwd><kwd>morphing</kwd><kwd>multi-objective optimization</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>浙江省自然科学基金资助项目</funding-source>
+<award-id>LY17A020001</award-id></award-group>
+<funding-statement>浙江省自然科学基金资助项目(LY17A020001)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.002</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH133.3</subject><subject>TP277</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于领域对抗网络的轴承故障诊断方法研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Fault diagnosis method for bearings based on domain adversarial neural networks</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>刘嘉濛</string-name>
+<string-name xml:lang="en">LIU Jia-meng</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>刘嘉濛(1989-),男,安徽淮北人,博士研究生,主要从事机械设备故障诊断方面的研究。E-mail: <email>jiamengliu@foxmail.com</email></p></bio>
+<email>jiamengliu@foxmail.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>郑凡帆</string-name>
+<string-name xml:lang="en">ZHENG Fan-fan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>梁丽冰</string-name>
+<string-name xml:lang="en">LIANG Li-bing</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>马波</string-name>
+<string-name xml:lang="en">MA Bo</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>mabo@mail.buct.edu.cn</email>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>北京化工大学发动机健康监控及网络化教育部重点实验室,北京100029</aff>
+<aff xml:lang="en"><label>1</label>Key Lab of Engine Health Monitoring Control and Networking of Ministry of Education,Beijing Universityof Chemical Technology,Beijing 100029,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>北京化工大学高端机械装备健康监控与自愈化北京市重点实验室,北京100029</aff>
+<aff xml:lang="en"><label>2</label>Beijing Key Laboratory of High End Mechanical EquipmentHealth Monitoring and Self Recovery,Beijing University of Chemical Technology,Beijing 100029,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>马波,男,副教授。E-mail: <email>mabo@mail.buct.edu.cn</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>227</fpage>
+<lpage>233</lpage>
+<abstract><p>在使用传统机器学习方法进行机械设备故障诊断过程中,因运行工况复杂多变无法满足测试数据和训练数据的同分布,导致模型诊断性能不高。针对这一问题,提出了一种基于领域对抗网络的设备变工况故障诊断方法。在卷积神经网络基础上,建立了包含特征提取器、故障分类器以及领域判别器的诊断模型,对测试与训练样本进行了分析处理,通过最小化故障分类器损失和最大化领域判别器损失,实现了对机械设备的故障诊断过程;通过在轴承试验台上进行了故障诊断模拟实验,将该方法诊断结果与其他故障诊断方法结果进行了对比,验证了该诊断模型对故障的识别能力。研究结果表明:该方法取得了96%以上的平均诊断准确率,在诊断过程中具有不受训练样本和测试样本差异影响的效果。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the performance limitation of the mechanical equipment fault diagnosis,a method of fault diagnosis for equipment based on domain adversarial neural networks(DANN)was proposed.The accuracy of diagnosis was effected by the distribution of training and testing data due to the complex and changeable operating conditions when using traditional machine learning methods.Based on the convolutional neural networks,the diagnosis model was established consisting of feature extractor,fault classifier and domain discriminator.The diagnosis was conducted by minimizing the loss of fault classifier and maximizing the loss of domain discriminator.The fault identification ability was proved in the diagnosis experiments of bearing fault with the comparison of other methods.The results indicate that the proposed method has an average accuracy higher than 96%,and it is not affected by the differences between training and testing data.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>故障诊断</kwd><kwd>领域对抗网络</kwd><kwd>轴承故障</kwd><kwd>网络诊断</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>fault diagnosis</kwd><kwd>domain adversarial neural networks(DANN)</kwd><kwd>bearing fault</kwd><kwd>network diagnosis</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家重点研发计划资助项目</funding-source>
+<award-id>2018YFB1503103</award-id></award-group>
+<funding-statement>国家重点研发计划资助项目(2018YFB1503103)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

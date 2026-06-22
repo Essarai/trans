@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.017</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH122</subject><subject>TK429</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>重型柴油机EGR支架的轻量化改进研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Lightweight improvement of EGR bracket for heavy-duty diesel engine</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>解卫华</string-name>
+<string-name xml:lang="en">XIE Wei-hua</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>解卫华(1985-),男,浙江台州人,硕士研究生,主要从事汽车CAD/CAE方面的研究。E-mail: <email>xiegd16@163.com</email></p></bio>
+<email>xiegd16@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>洪洋</string-name>
+<string-name xml:lang="en">HONG Yang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>赵国江</string-name>
+<string-name xml:lang="en">ZHAO Guo-jiang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>zhgj1963@126.com</email>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>台州科技职业学院汽车与信息工程学院,浙江台州318020</aff>
+<aff xml:lang="en"><label>1</label>School of Automotive and Information Engineering,Taizhou Vocational College of Science&amp;Technology,Taizhou 318020,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>浙江邦得利环保科技股份有限公司,浙江台州317000</aff>
+<aff xml:lang="en"><label>2</label>Zhe Jiang Bondlye Environmental Technology Co.,Ltd.,Taizhou 317000,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>赵国江,男,高级工程师。E-mail: <email>zhgj1963@126.com</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>311</fpage>
+<lpage>314</lpage>
+<abstract><p>针对某重型柴机EGR整体模态低、局部应力大等问题,对重型柴油机EGR支架进行了有限元分析和轻量化改进。利用ANSA软件,对某重型柴油机EGR冷却器、支架及卡箍等进行了网格划分;利用ABAQUS软件,对EGR前五阶模态和XYZ三向高加速度下的支架应力进行了有限元分析;基于压铸铝合金抗拉强度要求以及设计需求,提出了去除支架底板冗余部分、调整加强筯位置、增加螺栓孔凸台、减薄支架侧板和加厚支架底板等轻量化改进措施,并利用有限元分析和试验的方法研究了轻量改进效果。研究结果表明:基于有限元分析进行的EGR支架轻量化改进效果明显,较原方案质量下降35.5%,EGR整体模态上升43%,高加速度下的最大应力下降62%,说明基于有限元分析的轻量化改进是可行的,能为汽车零部件轻量化研究提供参考。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problem of low overall mode and large local stress in a heavy-duty diesel engine, the finite element analysis and the lightweight improvement was taken. The mesh of EGR cooler, bracket and clamp were taken based on ANSA. The finite element analysis was carried out to study the first five overall modes of EGR and local stress under high acceleration based on ABAQUS. The lightweight improvement was presented that remove redundant part, adjust the position of reinforcing ribs, increase bolt hole boss, thin bracket side plate and thicken bracket base plate based on the analysis results and design requirements. The finite element analysis and tests were taken to study the lightweight improvement effort. The results indicate that the lightweight improvement have obvious effect, compared with the original scheme, the quality have a 35.5% drop, the overall mode have a 43% increase and the max local stress have a 62% drop. The results indicate that the lightweight improvement are effective based on finite element analysis, it can provide reference for the research of automobile parts lightweight.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>重型柴油机</kwd><kwd>EGR支架</kwd><kwd>轻量化改进</kwd><kwd>有限元分析</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>heavy-duty diesel engine</kwd><kwd>exhaust gas recycling(EGR)bracket</kwd><kwd>lightweight improvement</kwd><kwd>finite element analysis</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家重点研发计划资助项目</funding-source>
+<award-id>2017YFC0211201</award-id></award-group>
+<funding-statement>国家重点研发计划资助项目(2017YFC0211201)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

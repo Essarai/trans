@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.016</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH871.4</subject><subject>TH122</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于Pro/E行为建模方法的参数化设计方法研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Parametric design based on Pro/E behavior modeling method</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>白小云</string-name>
+<string-name xml:lang="en">BAI Xiao-yun</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>白小云(1975-),男,山西太原人,硕士,主要从事特种加工方面的研究。E-mail: <email>1573535885@qq.com</email></p></bio>
+<email>1573535885@qq.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李昂</string-name>
+<string-name xml:lang="en">LI Ang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>姚新改</string-name>
+<string-name xml:lang="en">YAO Xin-gai</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>72679227787@qq.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>董志国</string-name>
+<string-name xml:lang="en">DONG Zhi-guo</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>太原理工大学机械与运载工程学院,山西太原030024</aff>
+<aff xml:lang="en"><label>1</label>College of Mechanical and Vehicle Engineering,Taiyuan University of Technology,Taiyuan 030024,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>精密加工山西省重点实验室,山西太原030024</aff>
+<aff xml:lang="en"><label>2</label>Precision Machining Key Laboratory of Shanxi Province,Taiyuan 030024,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>姚新改,女,副教授,硕士生导师。E-mail: <email>72679227787@qq.com</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>307</fpage>
+<lpage>310</lpage>
+<abstract><p>针对摆锤式冲击试验机设计周期长、信息无法共享的问题,对Pro/E的行为建模方法以及参数化设计进行了相关研究。以摆锤式冲击试验机模型为基础,建立了摆锤式冲击试验机的参数化设计平台,采用Pro/Web. Link开发工具对Pro/E进行了二次开发,实现了web网页与模型数据库的交互,使得设计人员在网页上就可以对模型进行直接操作;将Pro/E行为建模方法应用在模型设计中,以摆锤的冲击中心与摆锤组件质心的距离绝对值最小为优化目标,对摆锤和摆杆零件的几何尺寸进行了优化。研究结果表明:利用Pro/Web. Link二次开发工具可以实现对摆锤式冲击试验机的在线参数化设计,通过Pro/E行为建模方法优化尺寸,实现了摆锤的转动中心处没有附加力的作用;该方法可大大提高设计效率。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problems of long design cycle and unshakable information of pendulum impact testing machine, the behavior modeling method and parametric design of Pro/E were studied. Based on the pendulum impact testing machine model, the parametric design platform of pendulum impact testing machine was established. Pro/web. Link development tool was used to carry out secondary development of Pro/E, which realized the interaction between web pages and model database, and enabled designers to directly operate the model on the web pages. Pro/E behavior modeling method was applied to model design. The geometric dimensions of pendulum and pendulum rod parts were optimized with the minimum absolute value of the distance between the impact center of pendulum and the center of mass of pendulum assembly as the optimization objective. The results indicate that the online parametric design of pendulum impact testing machine can be realized by using Pro/Web. Link secondary development tool, and the dimension is optimized by Pro/E behavior modeling method, so that there is no additional force at the center of rotation of pendulum. The method greatly improves the design efficiency.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>冲击试验机</kwd><kwd>Pro/E行为建模</kwd><kwd>web</kwd><kwd>优化设计</kwd><kwd>参数化设计</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>impact testing machine</kwd><kwd>Pro/E behavior modeling</kwd><kwd>web</kwd><kwd>optimized design</kwd><kwd>parametric design</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>山西省自然科学基金资助项目</funding-source>
+<award-id>201701D121074</award-id></award-group>
+<funding-statement>山西省自然科学基金资助项目(201701D121074)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

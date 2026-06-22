@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.006</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH132.421</subject><subject>U463.218</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>驱动桥锥齿轮错位量的有限元建模和分析</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Finite element modeling and analysis for misalignments of bevel gears of drive axle</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李旭伟</string-name>
+<string-name xml:lang="en">LI Xu-wei</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>李旭伟(1982-),男,河北唐山人,高级工程师,主要从事汽车NVH试验与仿真、传动系统结构分析和优化方面的研究。E-mail: <email>lixuwei@catarc.ac.cn</email>。</p></bio>
+<email>lixuwei@catarc.ac.cn</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>田程</string-name>
+<string-name xml:lang="en">TIAN Cheng</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>张林涛</string-name>
+<string-name xml:lang="en">ZHANG Lin-tao</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>中国汽车技术研究中心有限公司,天津300300</aff>
+<aff xml:lang="en"><label>1</label>China Automotive Technology and Research Center Co.,Ltd.,Tianjin 300300,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>371</fpage>
+<lpage>376</lpage>
+<abstract><p>针对驱动桥锥齿轮在设计分析时所需的错位量参数难以获得的问题,在考虑轴承刚度耦合非线性的基础上,建立了包括传动轴、轴承、锥齿轮、差速器等部件在内的驱动桥传动系统的完整有限元模型。在驱动桥桥壳和主减速器壳体建模过程中,考虑刚度的影响,使用有限元模型提取了刚度矩阵,提出了一种驱动桥有限元建模方法;通过搭建的驱动桥仿真分析模型,模拟了真实工况,计算了模型的系统变形,分析得到了锥齿轮设计时所需的错位量。研究结果表明:该方法能对驱动桥包含的各部件进行建模,可模拟试验中的载荷工况,且模型计算分析周期短,仿真结果精度满足工程需求,能够实现对锥齿轮错位量的计算分析;同时,该结果对驱动桥传动系统其他部件的设计和分析也具有一定的借鉴意义。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the misalignments of drive axle bevel gears,considered the coupling and nonlinearity of bearing stiffness,a complete finite element model of driving axle transmission system including transmission shaft,bearing,bevel gears,differential and other components was established.The influence of stiffness in the process of shell modeling was considered,the stiffness matrix was extracted by using finite element model,and a finite element modeling method of driving axle was proposed.The simulation analysis model of driving axle was built to simulate the real working condition,the system deformation of the model was calculated,and then the misalignments needed in the design of bevel gear was analyzed.The results indicate that the method can model the components of the drive axle,simulate the test load conditions,shorten the calculation and analysis time,the simulation accuracy meets the engineering requirements,it can realize the calculation and analysis of bevel gear misalignment.It also has certain significance for the design and analysis of other parts in drive axle transmission system.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>锥齿轮错位量</kwd><kwd>驱动桥</kwd><kwd>传动系统</kwd><kwd>有限元建模</kwd><kwd>系统变形</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>misalignments of bevel gears</kwd><kwd>drive axle</kwd><kwd>transmission system</kwd><kwd>finite element modeling</kwd><kwd>system deformation</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>中汽研汽车检验中心（天津）有限公司科研项目</funding-source>
+<award-id>TJKY1819004</award-id></award-group>
+<funding-statement>中汽研汽车检验中心（天津）有限公司科研项目(TJKY1819004)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

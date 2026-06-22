@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.001</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH311</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>叶片仿鲨鱼鳍的导叶式离心泵数值仿真研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Numerical simulation of the guided vane centrifugal pump with bionic shark fin blade</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>沈姗姗</string-name>
+<string-name xml:lang="en">SHEN Shan-shan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>沈姗姗(1986-),女,浙江绍兴人,硕士研究生,主要从事机电控制方面的研究。E-mail: <email>shenshanshan63@163.com</email>。</p></bio>
+<email>shenshanshan63@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>左强</string-name>
+<string-name xml:lang="en">ZUO Qiang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>浙江工业职业技术学院机械工程分院,浙江绍兴312000</aff>
+<aff xml:lang="en"><label>1</label>Department of Mechanical Engineering,Zhejiang Industry Polytechnic College,Shaoxing 312000,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>浙江大学城市学院机械系,浙江杭州310015</aff>
+<aff xml:lang="en"><label>2</label>Department of Mechanical Engineering,Zhejiang University City College,Hangzhou 310015,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>221</fpage>
+<lpage>226</lpage>
+<abstract><p>针对导叶式离心泵内部流场流动不稳定的问题,运用仿生学技术和原理对鲨鱼鳍结构做了适当抽象处理,并运用在导叶式离心泵叶轮叶片前缘位置。对叶片仿鲨鱼鳍的导叶式离心泵内部流场进行了数值计算,研究了3个典型工况下离心泵内部流场的流动特性,得到了叶轮和导叶径向力的变化特性,进而分析了离心泵内部流场的湍动能分布规律,并进行了试验验证。研究结果表明:相比原模型,叶片仿鲨鱼鳍的导叶式离心泵改善了泵内流动特性,减小了泵内的湍动能分布;同时降低了叶轮和导叶的径向力,减弱了叶轮与导叶的动静干涉作用;仿鲨鱼鳍叶片减轻了导叶式离心泵内部流动的不稳定,明显提高了泵的扬程和效率等外特性参数。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problems that the internal flow field of the guide vane centrifugal pump is unstable,the structure of shark fin was properly abstracted by using bionics technology and principle,and applied to the leading edge of guide vane centrifugal pump impeller blade.The unsteady flow field of guide vane centrifugal pump was calculated,the flow characteristics under three typical working conditions of the flow field in centrifugal pump were studied,and the variation characteristics of radial force of impeller and guide vane were also obtained.The turbulent kinetic energy distribution law of waste heat removal pump was analyzed,and the experimental verification was also carried out.The results indicate that compared with the original model,the bionic shark fin blade can not only improve the flow characteristics in the pump,but reduce the turbulent kinetic energy in the pump.Meanwhile,it can reduce the radial force of impeller and guide vane,and weaken the dynamic and static interference between impeller and guide vane.The bionic shark fin blade can slow down the internal flow disorder of the guide vane centrifugal pump.Besides,the external characteristic parameters such as head and efficiency are obviously improved.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>仿鲨鱼鳍</kwd><kwd>导叶式离心泵</kwd><kwd>非定常流动</kwd><kwd>径向力</kwd><kwd>内流场</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>bionic shark fin</kwd><kwd>guided vane centrifugal pump</kwd><kwd>unsteady flow</kwd><kwd>radial force</kwd><kwd>internal flow field</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家自然科学基金资助项目</funding-source>
+<award-id>51605430</award-id></award-group>
+<award-group>
+<funding-source>浙江省教育厅科研项目</funding-source>
+<award-id>Y201839218</award-id></award-group>
+<award-group>
+<funding-source>绍兴市科技计划项目</funding-source>
+<award-id>2018C10006</award-id></award-group>
+<award-group>
+<funding-source>杭州市科技局农业科研自主申报项目</funding-source>
+<award-id>20191203B36</award-id></award-group>
+<funding-statement>国家自然科学基金资助项目(51605430)；浙江省教育厅科研项目(Y201839218)；绍兴市科技计划项目(2018C10006)；杭州市科技局农业科研自主申报项目(20191203B36)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

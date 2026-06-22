@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.012</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH117.1</subject><subject>TG71</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于车削试验法的刀具摩擦性能研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Tool friction performance based on turning test method</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王飞杰</string-name>
+<string-name xml:lang="en">WANG Fei-jie</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>王飞杰(1991-),男,河南开封人,硕士研究生,主要从事基于难加工材料研究刀具摩擦性能方面的研究。E-mail: <email>kmt1895121@163.com</email></p></bio>
+<email>kmt1895121@163.com</email>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>刘润爱</string-name>
+<string-name xml:lang="en">LIU Run-ai</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>liurunai@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>白小云</string-name>
+<string-name xml:lang="en">BAI Xiao-yun</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>郭文亮</string-name>
+<string-name xml:lang="en">GUO Wen-liang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>太原理工大学机械与运载工程学院,山西太原030024</aff>
+<aff xml:lang="en"><label>1</label>College of Mechanical and Vehicle Engineering,Taiyuan University of Technology,Taiyuan 030024,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>精密加工山西重点实验室,山西太原030024</aff>
+<aff xml:lang="en"><label>2</label>Precision Processing Shanxi Key Laboratory,Taiyuan 030024,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>刘润爱,女,博士,副教授,硕士生导师。E-mail: <email>liurunai@163.com</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>288</fpage>
+<lpage>292</lpage>
+<abstract><p>针对316不锈钢的切削力大、刀具磨损快以及切削温度高等问题,对其提升加工性能、降低切削分力、减小刀-屑间的摩擦阻力、优化切削参数等方面进行了研究。提出了利用车削试验法在正交切削参数下研究刀具摩擦性能,利用YW1硬质合金车刀在干切削条件下对316不锈钢棒料进行了车削试验;分析了切削参数对刀-屑间的摩擦特性的影响,并使用Third Wave AdvantEdge有限元软件对切削进程进行了仿真分析。仿真结果表明:切削参数的3个因素在干切削环境下对刀-屑间的摩擦系数μ的影响程度,从大到小依次为:进给量、切削速度、背吃刀量;以刀-屑间的摩擦系数μ最小选择最优参数组合为:切削速度V c(120 m/min)、进给量f(0.2 mm/r)、背吃刀量a p(1 mm)。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problems of high cutting force,fast tool wear and high cutting temperature of 316 stainless steel,improving the machining performance,reducing the cutting force,optimizing cutting parameters and reducing the frictional resistance between the tool and the chip were studied in the research.The frictional test of the tool was researched under the orthogonal cutting parameters by the turning test method.The YW1 carbide tool was used to test the 316 stainless steel bar under dry cutting conditions,and the influence of cutting parameters on the friction characteristics between tool and chip was analyzed.Third Wave AdvantEdge finite element software was used to analyze the cutting process.The experiment resules indicate that the influence of three factors of cutting parameters on the friction coefficient,μ,between tool and chip in the dry cutting environment is from large to small in order of feed,cutting speed,back feed.The optimum combination of cutting speed V c(120 m/min),feed rate f(0.2 mm/r),back feed a p(1 mm)is selected based on the minimum friction coefficient between the tool and the chip.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>难加工材料</kwd><kwd>摩擦性能</kwd><kwd>车削试验法</kwd><kwd>正交参数</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>difficult-to-machine material</kwd><kwd>friction performance</kwd><kwd>turning test method</kwd><kwd>orthogonal parameters</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家重点研发计划资助项目</funding-source>
+<award-id>2018YFB1308700</award-id></award-group>
+<award-group>
+<funding-source>山西省重点研发计划项目</funding-source>
+<award-id>201603D421016</award-id></award-group>
+<award-group>
+<funding-source>山西省应用基础研究计划项目</funding-source>
+<award-id>201901D111057</award-id></award-group>
+<funding-statement>国家重点研发计划资助项目(2018YFB1308700)；山西省重点研发计划项目(201603D421016)；山西省应用基础研究计划项目(201901D111057)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

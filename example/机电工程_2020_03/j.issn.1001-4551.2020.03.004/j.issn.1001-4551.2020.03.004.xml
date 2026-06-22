@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.004</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH322</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于MED-EEMD和ELM的轴向柱塞泵松靴故障诊断研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Loose slipper fault diagnosis of axial piston pump based on MED-EEMD and ELM</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>刘生政</string-name>
+<string-name xml:lang="en">LIU Sheng-zheng</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>刘生政(1992-),男,甘肃白银人,硕士研究生,主要从事轴向柱塞泵故障诊断方面的研究。E-mail: <email>2625475083@qq.com</email></p></bio>
+<email>2625475083@qq.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>张琳</string-name>
+<string-name xml:lang="en">ZHANG Lin</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>曾祥辉</string-name>
+<string-name xml:lang="en">ZENG Xiang-hui</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>兰媛</string-name>
+<string-name xml:lang="en">LAN Yuan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>lanyuan@tyut.edu.cn</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王志坚</string-name>
+<string-name xml:lang="en">WANG Zhi-jian</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff3">3</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>程珩</string-name>
+<string-name xml:lang="en">CHENG Hang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>太原理工大学机械与运载工程学院,山西太原030024</aff>
+<aff xml:lang="en"><label>1</label>College of Mechanical and Vehicle Engineering,Taiyuan University of Technology,Taiyuan 030024,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>太原理工大学新型传感器与智能控制教育部(山西省)重点实验室,山西太原030024</aff>
+<aff xml:lang="en"><label>2</label>Key Laboratory of Ministry of Education in Advanced Transducers and Intelligent Control System,Taiyuan University of Technology,Taiyuan 030024,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff3">
+<aff><label>3</label>中北大学机械工程学院,山西太原030051</aff>
+<aff xml:lang="en"><label>3</label>School of Mechanical Engineering,North University of China,Taiyuan 030051,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>兰媛,女,副教授,硕士生导师。E-mail: <email>lanyuan@tyut.edu.cn</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>241</fpage>
+<lpage>246,252</lpage>
+<abstract><p>针对轴向柱塞泵松靴故障在强噪声干扰下故障信号微弱、故障特征提取困难和故障诊断识别精度低等一系列问题,提出了基于最小熵反褶积、集合经验模态分解和超限学习机相结合的轴向柱塞泵松靴故障诊断的方法。首先采集了轴向柱塞泵在正常和松靴故障两种状态下的振动信号;然后对振动信号进行了最小熵反褶积降噪,排除了噪声干扰,增强了冲击特性;之后利用集合经验模态分解将去噪后的信号分解成了若干个本征模态函数分量,并通过奇异值分解获得了特征矩阵;最后将得到的特征矩阵输入超限学习机、反向传播神经网络和支持向量机等3类分类器,并将识别结果与集合经验模态分解特征提取方法的识别结果进行了对比。研究结果表明:最小熵反褶积和集合经验模态分解结合的方法弥补了最小熵反褶积在强背景噪声下提取特征的局限性,克服了经验模态分解对微弱故障特征不敏感的缺陷;以最小熵反褶积-集合经验模态分解特征提取方法为输入的超限学习机分类模型,在少量样本的情况下可以有效地对轴向柱塞泵松靴故障进行检测与诊断。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at series of problems such as weak fault signal, difficulty in extracting fault features and low fault diagnosis accuracy under the strong noise interference for loose slipper fault diagnosis of axial piston pump, a method of fault diagnosis of loose slipper fault diagnosis of axial piston pump based on minimum entropy deconvolution, ensemble empirical mode decomposition and extreme learning machine was proposed. Firstly, the vibration signal of the axial piston pump under normal and loose slipper conditions was collected. Then the MED method was applied to the vibration signal to eliminate noise interference and enhance impact characteristics. Afterwards, the denoised signal was decomposed into several intrinsic mode functions(IMFs) by EEMD, and the feature matrix was prepared by singularity value decomposition(SVD) of the obtained IMFs. Finally, the obtained feature matrix was input into the extreme learning machine, back propagation(BP) and support vector machine(SVM)classifiers. The recognition results were compared with those of the feature extraction method of EMD. The results indicate that the combination of MED and EEMD compensates for the limitation of EEMD extraction feature under strong background noise, and overcomes the defect that EMD is not sensitive to weak fault characteristics;the MED-EEMD feature extraction method and ELM classifier can be used to detect and diagnose the axial piston pump loose slipper fault in the case of a small number of samples.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>最小熵反褶积</kwd><kwd>集合经验模态分解</kwd><kwd>超限学习机</kwd><kwd>故障诊断</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>minimum entropy deconvolution(MED)</kwd><kwd>ensemble empirical mode decomposition(EEMD)</kwd><kwd>extreme learning machine(ELM)</kwd><kwd>fault diagnosis</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家自然科学基金青年项目</funding-source>
+<award-id>51405327</award-id></award-group>
+<award-group>
+<funding-source>国家自然科学基金面上项目</funding-source>
+<award-id>51675364</award-id></award-group>
+<award-group>
+<funding-source>山西省科技重大专项项目</funding-source>
+<award-id>20181102016</award-id></award-group>
+<funding-statement>国家自然科学基金青年项目(51405327)；国家自然科学基金面上项目(51675364)；山西省科技重大专项项目(20181102016)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

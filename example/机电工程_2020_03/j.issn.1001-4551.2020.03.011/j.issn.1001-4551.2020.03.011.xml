@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.011</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH122</subject><subject>U463.3202</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>某微型电动商用车车架轻量化优化研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Optimization of lightweight frame for a micro-electric commercial vehicle</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>张健</string-name>
+<string-name xml:lang="en">ZHANG Jian</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>张健(1981-),男,辽宁阜新人,副教授,主要从事机械设计、车辆性能评价与排放方面的研究。E-mail: <email>zhangjianpzh@126.com</email>。</p></bio>
+<email>zhangjianpzh@126.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>谢禹琳</string-name>
+<string-name xml:lang="en">XIE Yu-lin</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>攀枝花学院交通与汽车工程学院,四川攀枝花617000</aff>
+<aff xml:lang="en"><label>1</label>School of Transportation and Automobile Engineering,Panzhihua University,Panzhihua 617000,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>283</fpage>
+<lpage>287</lpage>
+<abstract><p>针对某微型纯电动商用车自重的问题,对其车架结构尺寸、承载能力进行了研究,提出了一种车架轻量化优化设计思路。以车架横梁质量最小为目标函数,以车架横梁的截面尺寸边界条件、强度、刚度和稳定性为约束,建立了数学模型;通过Matlab中模拟退火智能算法工具箱,实现了对车架横梁截面尺寸的优化,得到了最优的车架横梁截面尺寸;利用CATIA软件建立了车架优化前后的三维模型,导入ANASYS Workbench软件建立了有限元模型,并在此基础上进行了静力学分析(满载弯曲与满载扭转)和模态分析。研究结果表明:车架优化后较优化前减重了13.43%;优化后的车架应力和变形满足材料Q235钢的使用条件;车架优化前后的低阶自由模态频率与路面激励频率重合率仅为4.8%,发生共振的可能性很小;车架轻量化优化设计思路合理。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problem of self-weight of a micro-electric commercial vehicle, the structure size and bearing capacity of a micro-electric commercial vehicle frame were studied and then a lightweight optimization design idea for the frame of electric commercial vehicle was proposed. A mathematical model with the minimum beam mass as the objective function and the boundary condition, strength, stiffness and stability of the beam section size as the constraints was established. The optimization of the cross-section dimensions of the frame beam was realized by the simulated annealing intelligent algorithm toolbox in Matlab, and the optimal cross-section dimensions of the frame beam were obtained. The CATIA software was used to establish the 3 D model before and after the frame optimization, and the ANASYS Workbench software was introduced to establish the finite element model. Based on this, static analysis(full load bending and full load torsion) and modal analysis were performed. The results indicate that the weight of the optimized frame is reduced by 13.43% compared with that before. The stress and deformation of the optimized frame meet the service conditions of material Q235 steel. The low-order free mode frequency before and after the frame optimization has only a small overlap with the road surface excitation frequency, the coincidence rate is only 4.8%, and the possibility of resonance is small. The lightweight optimization design idea is reasonable.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>电动汽车</kwd><kwd>轻量化</kwd><kwd>车架</kwd><kwd>优化设计</kwd><kwd>模拟退火算法</kwd><kwd>有限元分析</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>electric vehicle</kwd><kwd>lightweight</kwd><kwd>frame</kwd><kwd>optimized design</kwd><kwd>simulated annealing</kwd><kwd>finite element analysis</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>四川省教育厅科研计划项目</funding-source>
+<award-id>18ZA0293</award-id></award-group>
+<award-group>
+<funding-source>攀枝花学院校级科研项目</funding-source>
+<award-id>2019ZD002</award-id></award-group>
+<funding-statement>四川省教育厅科研计划项目(18ZA0293)；攀枝花学院校级科研项目(2019ZD002)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

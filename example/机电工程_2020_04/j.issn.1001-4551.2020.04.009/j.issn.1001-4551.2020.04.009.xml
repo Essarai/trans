@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.009</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH161.14</subject><subject>TG580.692</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>液动压悬浮抛光固液两相流CFD数值模拟及PIV验证</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>CFD numerical simulation of solid-liquid two-phase flow and PIV verification in hydrodynamic suspension polishing</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>谢重</string-name>
+<string-name xml:lang="en">XIE Zhong</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+<bio><heading>作者简介：</heading><p>谢重(1992-),男,湖南岳阳人,博士研究生,主要从事超精密加工方面的研究。E-mail: <email>xz1992_ofyou@163.com</email>。</p></bio>
+<email>xz1992_ofyou@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>齐欢</string-name>
+<string-name xml:lang="en">QI Huan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>杨杰</string-name>
+<string-name xml:lang="en">YANG Jie</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>浙江工业大学机械工程学院,浙江杭州310014</aff>
+<aff xml:lang="en"><label>1</label>School of Mechanical Engineering,Zhejiang University of Technology,Hangzhou 310014,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>台州职业技术学院机电工程学院,浙江台州318000</aff>
+<aff xml:lang="en"><label>2</label>Schoolof Electrical andMechanical Engineering,Taizhou Vocational and Technical College,Taizhou 318000,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>389</fpage>
+<lpage>393</lpage>
+<abstract><p>针对液动压悬浮抛光固-液两相流中固相颗粒与工件表面撞击的过程,对不同加工工况下的固相颗粒与工件表面的撞击角度和速度进行了研究。采用计算流体力学方法建立了液动压悬浮抛光流场的三维模型,并输出了固相颗粒撞击工件表面的速度场;同时使用粒子图像测速方法对不同工况下的抛光流场进行了试验观测。研究结果表明:CFD模拟获得的撞击速度值与PIV观测值非常接近,且随转速增加,PIV观测值受固相颗粒之间的撞击效应影响越大;抛光过程中固相颗粒撞击工件表面的角度非常小,近似于在工件表面平行摩擦,且抛光盘转速和抛光液浓度对撞击角度的影响很小。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the process of solid particles impacting the workpiece involved in hydrodynamic suspension polishing,the impact angle and velocity between particles and workpiece surface was studied with different working conditions.A three-dimensional model of the hydrodynamic suspension polishing flow field was established by CFD and the velocity field during particles impacting the surface of workpiece was calculated.The experimental observations under different working conditions was carried out by PIV.The results indicate that the velocity distribution of solid particle calculated by CFD software are accord with the actual velocity distribution observed by PIV,and the PIV values are more affected by the impact effect between solid particles with the increase of rotation speed.The angle that solid particles impact workpiece is very small in hydrodynamic suspension polishing,which is similar to parallel friction on the workpiece surface,and the rotation speed of polishing disc and the concentration of polishing liquid have little influence on the impact angle.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>液动压悬浮抛光</kwd><kwd>撞击速度</kwd><kwd>撞击角度</kwd><kwd>计算流体动力学</kwd><kwd>粒子图像测速</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>hydrodynamic suspension polishing</kwd><kwd>impact angle</kwd><kwd>impact velocity</kwd><kwd>computational fluid dynamics(CFD)</kwd><kwd>particle image velocimetry(PIV)</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>浙江省自然科学基金资助项目</funding-source>
+<award-id>Y14E050057</award-id></award-group>
+<award-group>
+<funding-source>台州职业技术学院校级重点课题</funding-source>
+<award-id>2018ZD01</award-id></award-group>
+<funding-statement>浙江省自然科学基金资助项目(Y14E050057)；台州职业技术学院校级重点课题(2018ZD01)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

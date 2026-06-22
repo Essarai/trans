@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.015</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH132.41</subject><subject>TH122</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于GAPSO算法的转台齿轮传动多目标优化研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Multi-objective optimization of turntable gear transmission based on GAPSO algorithm</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>付军豪</string-name>
+<string-name xml:lang="en">FU Jun-hao</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>付军豪(1993-),男,四川绵竹人,硕士研究生,主要从事齿轮动力学方面的研究。E-mail: <email>fujunhao30@163.com</email></p></bio>
+<email>fujunhao30@163.com</email>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>刘康</string-name>
+<string-name xml:lang="en">LIU Kang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>315381847@qq.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>胥云</string-name>
+<string-name xml:lang="en">XU Yun</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>张明</string-name>
+<string-name xml:lang="en">ZHANG Ming</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>熊奉奎</string-name>
+<string-name xml:lang="en">XIONG Feng-kui</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>四川轻化工大学机械工程学院,四川宜宾644000</aff>
+<aff xml:lang="en"><label>1</label>School of Mechanical Engineering,Sichuan University of Science&amp;Engineering,Yibin 644000,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>绵阳职业技术学院机械工程学院,四川绵阳621000</aff>
+<aff xml:lang="en"><label>2</label>School of Mechanical Engineering,Mianyang Vocational and Technical College,Mianyang 621000,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>刘康,男,博士,教授,硕士生导师。E-mail: <email>315381847@qq.com</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>420</fpage>
+<lpage>424</lpage>
+<abstract><p>针对某航空发动机叶片五轴加工机床转台传动系统多目标优化设计问题,以五轴加工机床转台的齿轮总体积和总重合度建立了目标函数,在齿轮的接触应力和弯曲应力为约束条件下建立了优化数学模型。提出了结合PSO算法与GA算法各自优点的GAPSO方法,利用GAPSO算法既有GA算法的强大全局搜索能力又有PSO算法的快速收敛能力的特点,求解了转台齿轮传动系统的多目标优化数学模型,并分别使用PSO算法、GA算法对数学模型进行了寻优求解,最后将3种算法的结果进行了对比分析。研究结果表明:相比PSO算法与GA算法,GAPSO算法的优化效果最佳,转台的齿轮传动系统体积减少27.26%,重合度增加8.10%;优化目标实现了转台的轻量化与提高传动平稳性的目的,为转台的齿轮传动系统的多目标优化设计提供了理论依据。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problems of a multi-objective optimization design of a five-axis machine tool turntable transmission system for an aero-engine blade turntable,the objective function was established by the total gear volume and total coincidence of the five-axis machine tool turntable,an optimized mathematical model was established under the constraints of contact stress and bended stress of the gear.A GAPSO method combined the advantages of PSO algorithm and GA algorithm were proposed.The GAPSO algorithm which has both the powerful global search ability of GA algorithm and the fast convergence ability of PSO algorithm were used to solve the multi-objective optimization mathematical model of turntable gear transmission system.The PSO algorithm and GA algorithm were used to optimize the mathematical model,and the results of the three algorithms were compared.The results indicate that compared with the PSO algorithm and the GA algorithm,the optimization effect of the GAPSO algorithm is the best.The volume of the gear transmission system of the turntable is reduced by 27.26%,and the coincidence degree is increased by 8.10%.The optimization goal achieves the purpose of reducing the weight of the turntable and improving the smoothness of the transmission.The multi-objective optimization design of the gear transmission system provides a theoretical basis.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>五轴加工机床</kwd><kwd>GAPSO算法</kwd><kwd>转台</kwd><kwd>齿轮传动系统</kwd><kwd>多目标优化</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>five-axis machine tool</kwd><kwd>GAPSO algorithm</kwd><kwd>turntable</kwd><kwd>gear transmission system</kwd><kwd>multi-objective optimization</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>工业和信息化部资助项目</funding-source>
+<award-id>[2018]265</award-id></award-group>
+<award-group>
+<funding-source>四川省科技厅资助项目</funding-source>
+<award-id>2017GZ0340</award-id></award-group>
+<funding-statement>工业和信息化部资助项目([2018]265)；四川省科技厅资助项目(2017GZ0340)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.005</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH45</subject><subject>TP273</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>涡旋压缩机轴向平衡电磁力的自适应提前跟踪研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Adaptive advance tracking of electromagnetic force for vortex machine axial balance ofscroll compressor</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>蔡炯炯</string-name>
+<string-name xml:lang="en">CAI Jiong-jiong</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>蔡炯炯(1979-),男,浙江余姚人,博士,副教授,主要从事新型电磁机构及其控制系统方面的研究。E-mail: <email>caijj@zust.edu.cn</email>。</p></bio>
+<email>caijj@zust.edu.cn</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>曹阳</string-name>
+<string-name xml:lang="en">CAO Yang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>程楷一</string-name>
+<string-name xml:lang="en">CHENG Kai-yi</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>祝亮</string-name>
+<string-name xml:lang="en">ZHU Liang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王子辉</string-name>
+<string-name xml:lang="en">WANG Zi-hui</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>蒋惠忠</string-name>
+<string-name xml:lang="en">JIANG Hui-zhong</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>浙江科技学院自动化与电气工程学院,浙江杭州310023</aff>
+<aff xml:lang="en"><label>1</label>School of Automation and Electrical Engineering,Zhejiang University ofScience and Technology,Hangzhou 310023,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>365</fpage>
+<lpage>370</lpage>
+<abstract><p>针对涡旋压缩机动静涡盘间轴向气体分离力的平衡需求问题,对涡旋压缩机轴向气体分离力变化规律进行了研究,提出了采用电磁线圈产生电磁力动态平衡的方案。分析了带铁芯电磁力机构动态跟踪控制时的滞后现象及其原因,在总结传统PID控制与传统的滞后系统控制方法基础上,研究了提前跟踪PID动态电磁力控制方法,给出了控制框图,分析了其稳定性,推导了时域实现方法;分析了不同参数值对控制性能的影响,根据跟踪的评价方法,给出了寻找提前跟踪步数量最优值的自适应提前跟踪PID算法;搭建了电磁机构和控制系统实验平台,对该控制方法进行了实验验证。研究结果表明:采用提前跟踪PID动态电磁力控制方法可以较好地动态跟踪目标曲线;所需的最优提前步数量随着频率的变化而变化,不同频率所需的最优提前跟踪量可由提出的自适应算法确定。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the requirement of axial gas separation force balance between dynamic and static scroll discs of scroll compressor,the variation law of axial gas separation force of scroll compressor was studied,and the scheme of dynamic force balance using electromagnetic method was put forward.The lag phenomena and corresponding causes in dynamic tracking control of electromagnetic force with iron core were analyzed.After the summarizing of traditional PID controls and the traditional control methodsfor lagging system,the dynamic electromagnetic force control method with advance tracking PID was discussed.The control block diagram was firstly given out,and then its stability was analyzed,the time domain implementation method was also deduced.The influence of different parameters on the control performance was analyzed,after which an adaptive advance tracking PID algorithm was presented to find the optimal number of tracking steps in advance.The experimental platform of electromagnetic mechanism and control system was built,and the control method was verified by experiments.The results show that the dynamic electromagnetic force control method based on the adaptive advance tracking PID algorithm can better track the target curve dynamically.The optimal number of advance steps required varies with frequency,and the optimal steps of advance tracking required for different frequencies can be determined by the proposed adaptive algorithm.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>涡旋压缩机</kwd><kwd>轴向力</kwd><kwd>电磁力</kwd><kwd>提前跟踪控制</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>scroll compressor</kwd><kwd>axial force</kwd><kwd>electromagnetic force</kwd><kwd>advance tracking control</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>浙江省自然科学基金资助项目</funding-source>
+<award-id>LY17E070002、LQ17E070002</award-id></award-group>
+<funding-statement>浙江省自然科学基金资助项目(LY17E070002、LQ17E070002)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

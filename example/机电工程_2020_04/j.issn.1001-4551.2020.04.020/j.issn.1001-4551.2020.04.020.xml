@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.020</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>自动化、计算机技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Automation and Computer Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TP273</subject><subject>TD422.2</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>混合动力挖掘机电动回转系统速度控制研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Speed control of electric drive swing system in hybrid excavator</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>韩素贤</string-name>
+<string-name xml:lang="en">HAN Su-xian</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>韩素贤(1984-),女,内蒙古化德人,硕士研究生,主要从事新能源和电力自动化方面的研究。E-mail: <email>hsxssz@163.com</email></p></bio>
+<email>hsxssz@163.com</email>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>姚洪</string-name>
+<string-name xml:lang="en">YAO Hong</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>yaohong7901@hotmail.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>时盛志</string-name>
+<string-name xml:lang="en">SHI Sheng-zhi</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff3">3</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>包头职业技术学院电气工程系,内蒙古包头014030</aff>
+<aff xml:lang="en"><label>1</label>Department of Electrical Engineering,Baotou Vocational&amp;Technical College,Baotou 014030,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>杭州西湖新能源科技有限公司,浙江杭州310012</aff>
+<aff xml:lang="en"><label>2</label>Hangzhou Wesklake New Energy Technology Co.,Ltd.,Hangzhou 310012,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff3">
+<aff><label>3</label>宁夏和宁化学有限公司,宁夏银川751400</aff>
+<aff xml:lang="en"><label>3</label>Ningxia Hening Chemical Co.,Ltd.,Yingchuan 751400,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>姚洪,男,博士后,高级工程师。E-mail: <email>yaohong7901@hotmail.com</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>446</fpage>
+<lpage>450</lpage>
+<abstract><p>针对挖掘机回转平台转动惯量大、变化范围宽且外界干扰力矩较大,易造成速度波动的问题,对20 t混合动力挖掘机电驱动回转系统速度控制进行了研究。建立了其数学模型,提出了比例积分(PI)+扰动观测器补偿的速度控制方案,并设计了扰动观测器和PI控制系数;在转台最大和最小惯量,且施加阶跃干扰力矩的情况下,对PI+DOB方案以及PI控制方案进行了仿真对比。仿真结果表明:该回转系统在采用PI控制之外增加DOB环节后,使转台惯量变化对转速超调量的影响从3.1%下降到1%,外部干扰对转速波动的影响从1.3%下降到0.1%;扰动观测器环节减小了惯量变化对转速超调的影响,增强了速度控制的抗干扰能力,改善了回转作业的操作性。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the rotary speed fluctuation of the excavator upper platform caused by the large and variable swing inertia and the large disturbance torque,the speed control of electric drive swing system of a 20-ton excavator upper platform was investigated.The mathematic model of the swing system was built and analyzed.The PI plus disturbance observer control scheme was presented and the disturbance observer was designed.The simulation was performed at the condition of the maximum,minimum swing inertia and the step disturbance torque.The simulation results indicate that the scheme of disturbance observer makes the impact of inertia variation of platform on rotary speed fluctuation drop from 3.1%to 1%,and the impact of external disturbance on rotary speed fluctuation drop from 1.3%to 0.1%.Therefore,the impact of inertia variation of platform on rotary speed is decreased,the ability of anti-disturbance is enhanced and the operability of the swing system is improved through the disturbance observer.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>混合动力挖掘机</kwd><kwd>电动回转系统</kwd><kwd>速度控制</kwd><kwd>扰动观测器</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>hybrid power excavator</kwd><kwd>electric drive swing system</kwd><kwd>speed control</kwd><kwd>disturbance observer(DOB)</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>浙江省博士后科研项目择优资助项目</funding-source>
+<award-id>浙人社发[2017]71号</award-id></award-group>
+<funding-statement>浙江省博士后科研项目择优资助项目(浙人社发[2017]71号)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.009</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH133.33</subject><subject>TH117</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>圆锥滚子轴承挡边倾角的优化研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Optimization of rib angle of tapered roller bearings</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>刘文福</string-name>
+<string-name xml:lang="en">LIU Wen-fu</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>刘文福(1967-),男,河南郑州人,讲师,工程师,主要从事汽车装配技术方面的研究。E-mail: <email>songyangj@163.com</email>。</p></bio>
+<email>songyangj@163.com</email>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>河南农业职业学院机电工程学院,河南郑州451450</aff>
+<aff xml:lang="en"><label>1</label>School of Mechatronics Engineering,Henan Vocational College of Agriculture,Zhengzhou 451450,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>271</fpage>
+<lpage>276</lpage>
+<abstract><p>针对圆锥滚子轴承普遍存在的挡边摩擦发热问题,对圆锥滚子球基面和锥挡边的接触形式、受力和接触椭圆进行了研究。对圆锥滚子轴承现行设计方法中,挡边倾角值的计算方法及其不足进行了总结;基于赫兹点接触理论,提出了圆锥滚子球基面与锥挡边的接触计算模型;以某汽车用单列圆锥滚子轴承为实例,给定了轴承参数和使用工况,根据轴承受力平衡,求解了滚子表面受力;对受力最大的滚子,设置了接触椭圆边缘恰好在油沟边缘的极限位置为条件,运用迭代法讨论了挡边倾角值变化对挡边受力和接触椭圆各参数的影响。研究结果表明:随着挡边倾角增大,接触椭圆的各参数均呈减小趋势,摩擦将越小;综合考虑滚子歪斜和不对中因素后,挡边倾角值得到了优化,挡边的摩擦问题得到了改善。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the frictional heating problem of tapered roller bearings, the contact form, force and contact ellipse of tapered roller ball base surface and conical rib were studied. The calculation method and shortcomings of the rib angle in the current design method of tapered roller bearings were summarized. Based on Hertz point contact theory, a contact calculation model between ball base surface of tapered roller and conical rib was proposed. Taking a single row tapered roller bearing for an automobile as an example, and given the bearing parameters and operating conditions, the force on the roller surface was solved according to the force balance of the bearing. For the roller with the greatest force, the influence of the change of the inclination angle of the rib edge on the stress and the parameters of the contact ellipse was discussed by iteration method under the condition that the contact ellipse edge was exactly at the limit position of the oil ditch edge. The results indicate that with the increase of the rib angle, the parameters of the contact ellipse decrease and the friction decreases. After considering the factors of roller skew and misalignment, the rib angle value is optimized, which can improve the friction problem of the rib edge.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>圆锥滚子轴承</kwd><kwd>球基面</kwd><kwd>挡边倾角</kwd><kwd>赫兹接触</kwd><kwd>接触椭圆</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>tapered roller bearing</kwd><kwd>sphere surface</kwd><kwd>rib angle</kwd><kwd>hertz contact</kwd><kwd>contact ellipse</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家重点研发计划资助项目</funding-source>
+<award-id>2018YFB1201900</award-id></award-group>
+<funding-statement>国家重点研发计划资助项目(2018YFB1201900)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.008</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH131.3</subject><subject>U213.52</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>第三轨受流器滑板螺栓联接残余预紧力特性研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Residual preload characteristics of bolt connection of the third rail receiver slide</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>姚齐水</string-name>
+<string-name xml:lang="en">YAO Qi-shui</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>姚齐水(1967-),男,湖南醴陵人,博士,教授,硕士生导师,主要从事机构学与机械动力学方面的研究。E-mail: <email>yaoqishui@126.com</email>;通信作者:余江鸿,男,副教授,硕士生导师。E-mail: <email>zz_yjh@126.com</email>。</p></bio>
+<email>yaoqishui@126.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>袁秋炜</string-name>
+<string-name xml:lang="en">YUAN Qiu-wei</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>陈章</string-name>
+<string-name xml:lang="en">CHENG Zhang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>余江鸿</string-name>
+<string-name xml:lang="en">YU Jiang-hong</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>湖南工业大学机械工程学院,湖南株洲412007</aff>
+<aff xml:lang="en"><label>1</label>School of Mechanical Engineering,Hunan University of Technology,Zhuzhou 412007,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>中车株洲电力机车有限公司,湖南株洲412001</aff>
+<aff xml:lang="en"><label>2</label>CRRC Zhuzhou Locomotive Co.,Ltd.,Zhuzhou 412001,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>383</fpage>
+<lpage>388</lpage>
+<abstract><p>针对第三轨受流器滑板螺栓联接的松驰问题,通过建立受流器与第三轨接触有限元模型,以轨道不平顺谱为振动源进行了仿真。从接触力层面分析了列车最佳运行速度区间,并提取了振动载荷;通过建立螺栓联接模型,采用Yamamoto方法验证了模型的正确性;根据实际工况分析了残余预紧力与列车运行速度、初始预紧力和摩擦系数之间的关系和变化规律。研究结果表明:在列车运行初期残余预紧力下降最多;初始预紧力过小或过大均会影响联接的可靠性,当列车在最佳速度区间运行时,选择适当的初始预紧力和摩擦系数,可以提高防松性能;该分析结果对研究第三轨受流器滑板螺栓联接松弛机理及防松具有一定的指导意义。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the slack problem of the sliding bolt connection of the third rail current receiver,by establishing a contact finite element model of the current rail and the third rail,the track irregularity spectrum was used as a vibration source to simulate the optimal running speed interval of the train from the contact force level.And the vibration load was extracted.The correctness of the model was verified by using the Yamamoto method by establishing a bolt connection model.The relationship and the change rule between the residual preload force and the train running speed,the initial pretension force,and the friction coefficient were analyzed according to the actual operating conditions.The results show that the residual preload decreases the most during the initial stage of operation,too small or too large initial preload will affect the reliability of the connection.When the train runs in the optimal speed range,choosing the appropriate initial preload and fcoefficient of friction can improve the anti-loose performance.The analysis results have certain reference significance for studying the loosening mechanism and anti-loosening of the slide bolt connection of the third rail current receiver.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>第三轨受流器滑板</kwd><kwd>螺栓联接</kwd><kwd>残余预紧力</kwd><kwd>初始预紧力</kwd><kwd>运行速度</kwd><kwd>摩擦系数</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>third rail train receiver slide</kwd><kwd>bolt connection</kwd><kwd>residual preload</kwd><kwd>initial preload</kwd><kwd>running speed</kwd><kwd>coefficient of friction</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>湖南省自然科学（株洲）联合基金资助项目(2018JJ4059)%湖南省研究生科研创新项目</funding-source>
+<award-id>CX1825</award-id></award-group>
+<funding-statement>湖南省自然科学（株洲）联合基金资助项目(2018JJ4059)%湖南省研究生科研创新项目(CX1825)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

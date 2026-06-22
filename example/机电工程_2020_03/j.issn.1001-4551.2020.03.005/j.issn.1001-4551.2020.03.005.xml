@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.005</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH114</subject><subject>TU621</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于不同工作载荷的铲斗结构特性分析</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Analysis of bucket structure characteristics based on different working loads</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>任志贵</string-name>
+<string-name xml:lang="en">REN Zhi-gui</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+<bio><heading>作者简介：</heading><p>任志贵(1985-),男,陕西汉中人,副教授,主要从事工程机械性能评价及优化方法方面的研究。E-mail: <email>zhiguiren@163.com</email>。</p></bio>
+<email>zhiguiren@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>孙浩然</string-name>
+<string-name xml:lang="en">SUN Hao-ran</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王军利</string-name>
+<string-name xml:lang="en">WANG Jun-li</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>刘菊蓉</string-name>
+<string-name xml:lang="en">LIU Ju-rong</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>朱昊杰</string-name>
+<string-name xml:lang="en">ZHU Hao-jie</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>陕西理工大学机械工程学院,陕西汉中723001</aff>
+<aff xml:lang="en"><label>1</label>School of Mechanical Engineering,Shaanxi University of Technology,Hanzhong 723001,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>陕西省工业自动化重点实验室,陕西汉中723001</aff>
+<aff xml:lang="en"><label>2</label>Shaanxi Key Laboratory of Industrial Automation,Hanzhong 723001,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>247</fpage>
+<lpage>252</lpage>
+<abstract><p>针对挖掘机铲斗在未达到理论寿命之前,便发生严重磨损或断裂等破坏现象的问题,研究了复合挖掘方式对铲斗结构特性的影响。基于工作装置应力特性选择了4种挖掘机典型工况,并分别基于挖掘阻力经验公式、单独挖掘理论挖掘力模型和复合挖掘理论挖掘力模型,计算出了某21 T挖掘机铲斗的工作载荷,采用有限元法计算了铲斗在不同载荷作用下的应力变形情况。研究结果表明:在相同工况下,复合挖掘方式对应更大的铲斗外载荷,同时对应更大的应力和变形;该结果验证了复合挖掘是一种造成铲斗破坏的重要因素这一结论,为挖掘机铲斗结构强度分析和优化设计提供了理论依据。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problem that the bucket suffers from serious wear or fracture before it reaches the theoretical life,the influence of composite excavation method on the structural characteristics of bucket was studied.Based on the stress characteristics of the working device,four typical working conditions of excavators were selected.The different working loads of a 21 T excavator was calculated respectively based on the empirical formula of excavating resistance,the excavating force model of individual excavating theory and the excavating force model of compound excavating theory.The finite element method was used to calculate stress and deformation under different loading conditions.The results indicate that:under the same condition,the compoud digging pattern corresponds to a larger external load of the bucket,it also corresponds to greater stress and deformation.This result verifies the conclusion that compound digging is an important factor causing bucket damage,it provides theoretical basis for strength analysis and optimization design of excavator bucket structure.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>挖掘机</kwd><kwd>铲斗结构</kwd><kwd>工作载荷</kwd><kwd>复合挖掘力</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>excavator</kwd><kwd>bucket structure</kwd><kwd>working loads</kwd><kwd>compound digging force</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家自然科学基金资助项目</funding-source>
+<award-id>51605270</award-id></award-group>
+<award-group>
+<funding-source>陕西省自然科学基金项目</funding-source>
+<award-id>2019JQ-884</award-id></award-group>
+<award-group>
+<funding-source>陕西省教育厅自然科学基金资助项目</funding-source>
+<award-id>15JK1136</award-id></award-group>
+<award-group>
+<funding-source>陕西理工大学人才启动基金资助项目</funding-source>
+<award-id>SLGQD15-09</award-id></award-group>
+<funding-statement>国家自然科学基金资助项目(51605270)；陕西省自然科学基金项目(2019JQ-884)；陕西省教育厅自然科学基金资助项目(15JK1136)；陕西理工大学人才启动基金资助项目(SLGQD15-09)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.007</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH132.46</subject><subject>TP206.3</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于ACPSO-SVDD的齿轮箱故障异常检测方法研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Anomaly detection of gearbox fault based on ACPSO-SVDD</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>刘志远</string-name>
+<string-name xml:lang="en">LIU Zhi-yuan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>刘志远(1970-),男,山东枣庄人,高级工程师,主要从事设备维护与检测、继电保护与输电设备运检方面的研究。E-mail: <email>41181853@qq.com</email></p></bio>
+<email>41181853@qq.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>赵欣洋</string-name>
+<string-name xml:lang="en">ZHAO Xing-yang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王化玲</string-name>
+<string-name xml:lang="en">WANG Hua-ling</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>晁战云</string-name>
+<string-name xml:lang="en">CHAO Zhan-yun</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff3">3</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>刘小峰</string-name>
+<string-name xml:lang="en">LIU Xiao-feng</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff4">4</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>liuxfeng0080@126.com</email>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>国网宁夏电力有限公司检修公司,宁夏银川750011</aff>
+<aff xml:lang="en"><label>1</label>Overhaul Company,State Grid Ningxia Electric Power Co.,Ltd.,Yinchuan 750011,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>国网智能科技股份有限公司,山东济南250101</aff>
+<aff xml:lang="en"><label>2</label>State Grid Intelligent Technology Co.,Ltd.,Jinan 250101,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff3">
+<aff><label>3</label>华通科技有限公司,重庆400112</aff>
+<aff xml:lang="en"><label>3</label>Huatong TechnologyCo.,Ltd.,Chongqing 4001120,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff4">
+<aff><label>4</label>重庆大学机械传动国家重点实验室,重庆400044</aff>
+<aff xml:lang="en"><label>4</label>The State Key Laboratory of MechanicalTransmissions,Chongqing University,Chongqing 400044,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>刘小峰,女,博士,教授。E-mail: <email>liuxfeng0080@126.com</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>377</fpage>
+<lpage>382</lpage>
+<abstract><p>针对设备关键部件异常检测中故障数据缺失以及故障程度划分问题,对齿轮箱的各种类型故障进行了异常检测研究,提出了基于自适应混沌粒子群优化的支持向量数据描述方法。该方法引入了自适应混沌理论,对传统粒子群优化算法进行了改进,增强了粒子跳出局部最优解的能力,提高了粒子群体对最优解的全局搜索能力;采用ACPSO对SVDD的惩罚因子以及核参数进行了参数寻优,并应用于齿轮箱减速器的异常检测中。研究结果表明:ACPSO-SVDD异常检测方法不仅能够对不同类型的故障异常进行准确检测,而且能够对故障损伤程度进行量化分析。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problems of lacking typical fault data and quantifying damage degree in the anomaly detection of equipment system,an anomaly detection method based on adaptive chaotic particle swarm optimization and support vector data description was proposed to detect gearbox fault anomaly.In this method,and the adaptive chaos theory was introduced into the conventional particle swarm optimization(PSO)algorithm,which enhanced the ability of particles to jump out of local optimal solutions and improved the global search ability of particle populations for optimal solutions.The ACPSO algorithm was used to optimize the penalty factor and kernel parameter of SVDD.The proposed method was successfully applied to identify the abnormal stateof gearbox.The results indicate that the ACPSO-SVDD anomaly detection method can not only accurately detect different types of fault anomalies,but also quantitatively analyze the degree of fault.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>自适应混沌粒子群优化</kwd><kwd>支持向量数据描述</kwd><kwd>异常检测</kwd><kwd>参数寻优</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>adaptive chaotic particle swarm optimization(ACPSO)</kwd><kwd>support vector data description(SVDD)</kwd><kwd>anomaly detection</kwd><kwd>parameter optimization</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家自然科学基金资助项目</funding-source>
+<award-id>51975067</award-id><award-id>51675064</award-id></award-group>
+<funding-statement>国家自然科学基金资助项目(51975067,51675064)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

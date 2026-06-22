@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.006</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH123.3</subject><subject>TK172.4</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>热交换管内壁子午面半椭圆裂纹应力强度因子数值计算</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Numerical calculation of the stress intensity factor of heat exchange tube inner surface meridian plane containing semi-elliptical crack</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李东方</string-name>
+<string-name xml:lang="en">LI Dong-fang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>李东方(1986-),男,河南新蔡人,硕士,讲师,主要从事机械设计与优化、机械强度、工程材料性能方面的研究。E-mail: <email>ldf_keer@163.com</email>。</p></bio>
+<email>ldf_keer@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>杨海波</string-name>
+<string-name xml:lang="en">YANG Hai-bo</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>毛朝晖</string-name>
+<string-name xml:lang="en">MAO Zhao-hui</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff3">3</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>张成龙</string-name>
+<string-name xml:lang="en">ZHANG Cheng-long</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff4">4</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>衢州职业技术学院机电工程学院,浙江衢州324000</aff>
+<aff xml:lang="en"><label>1</label>School of Mechanical and Electrical Engineering,Quzhou College of Technology,Quzhou 324000,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>北京科技大学机械工程学院,北京100083</aff>
+<aff xml:lang="en"><label>2</label>School of Mechanical Engineering,University of Science and Technology Beijing,Beijing 100083,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff3">
+<aff><label>3</label>中国一重集团大连工程技术有限公司核电装备技术部,辽宁大连116600</aff>
+<aff xml:lang="en"><label>3</label>Technique Department of Nuclear Power Equipment,China First Heavy Industries Dalian Engineering Technology Co.,Ltd.,Dalian 116600,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff4">
+<aff><label>4</label>浙江逊龙机器人科技有限公司,浙江金华321000</aff>
+<aff xml:lang="en"><label>4</label>Zhejiang Sunlong Robot Technology Co.,Ltd.,Jinhua 321000,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>253</fpage>
+<lpage>258</lpage>
+<abstract><p>针对热交换管内壁存在的应力腐蚀开裂的强度问题,对内壁子午面半椭圆裂纹应力强度因子K_I求解模型进行了研究。使用了机加工的方法制作裂纹模型,并利用了光弹法测定K_I,进行了数值求解模型可靠性验证;对热交换管内壁子午面半椭圆裂纹在复杂载荷、不同裂纹深度a(1 mm、1.25 mm、1.5 mm及1.75 mm)和不同裂纹形状比a/b(0.1、0.2、0.3…0.8及0.9)下的K_I分布与扩展规律进行了归纳,提出了一些热交换管的疲劳寿命设计、可靠性分析或工况监测建议。研究结果表明:内壁所受压力P_i决定了K_I分布值大小,内外壁温度差ΔT对K_I分布影响也相对较大;将数值解和实验解、文献解进行了对比,其结果相互吻合较好。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the strength of stress corrosion cracking on the inner wall of heat exchange tube, the K_I model for stress intensity factor of inner surface meridian plane containing semi-elliptical crack was studied. The crack model was prepared by mechanical process which got the K_I determined by photo elastic method. The reliability verification of the numerical solution model was carried out. Additionally, the law of distribution and expansion of K_I values was summarized under complex loads, different crack depths, a,(i.e. 1 mm, 1.25 mm, 1.5 mm and 1.75 mm) and different crack shape ratios, a/b,(i.e. 0.1, 0.2, 0.3... 0.8 and 0.9). Some suggestions on reliability analysis of fatigue life design, working condition monitoring of heat exchange tube were put forward. The results indicate that the pressure, P_i, on the inner wall determines the K_I distribution, in addition, the temperature difference between inner wall and outer wall, ΔT, is also relatively large influence on the K_I distribution. Meanwhile, some numerical calculation values are compared with the experimental values and manual calculation values which shows that the values fit preferably.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>应力强度因子</kwd><kwd>内壁子午面半椭圆裂纹</kwd><kwd>应力腐蚀开裂</kwd><kwd>热交换管</kwd><kwd>数值计算</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>stress intensity factor</kwd><kwd>inner surface meridian plane semi-elliptical crack</kwd><kwd>stress corrosion crack(SCC)</kwd><kwd>heat exchange tube</kwd><kwd>numerical calculation</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家重大科学仪器设备开发专项项目</funding-source>
+<award-id>2011YQ14014505</award-id></award-group>
+<award-group>
+<funding-source>重大专项示范工程福清1(2)号核反应堆压力容器项目(H123414</funding-source>
+<award-id>1545</award-id></award-group>
+<award-group>
+<funding-source>浙江省衢州市科技局计划项目</funding-source>
+<award-id>2017G13</award-id></award-group>
+<funding-statement>国家重大科学仪器设备开发专项项目(2011YQ14014505)；重大专项示范工程福清1(2)号核反应堆压力容器项目(H123414(15)45)；浙江省衢州市科技局计划项目(2017G13)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

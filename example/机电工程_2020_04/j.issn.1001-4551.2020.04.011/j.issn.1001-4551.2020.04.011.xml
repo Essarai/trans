@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.011</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH113.1</subject><subject>O322</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>GMA非线性振动系统混沌特性研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Chaotic characteristics of giant magnetostrictive actuator nonlinear vibration system</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>闫洪波</string-name>
+<string-name xml:lang="en">YAN Hong-bo</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>闫洪波(1981-),男,河南洛阳人,副教授,主要从事稀土超磁致伸缩材料工业化应用及实施方面的研究。E-mail: <email>nkdyhb@imust.cn</email>。</p></bio>
+<email>nkdyhb@imust.cn</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>高鸿</string-name>
+<string-name xml:lang="en">GAO Hong</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>郝宏波</string-name>
+<string-name xml:lang="en">HAO Hong-bo</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>牛禹</string-name>
+<string-name xml:lang="en">NIU Yu</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>内蒙古科技大学机械工程学院,内蒙古包头014010</aff>
+<aff xml:lang="en"><label>1</label>College of Mechanical Engineering,Inner Mongolia University of Science&amp;Technology,Baotou 014010,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>包头稀土研究院白云鄂博稀土资源研究与综合利用国家重点实验室,内蒙古包头014030</aff>
+<aff xml:lang="en"><label>2</label>State Key Laboratory of Bayan Obo Rare Earth Resource Researches and Comprehensive Utilization,Baotou Research Institute of Rare Earths,Baotou 014030,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>399</fpage>
+<lpage>404</lpage>
+<abstract><p>针对超磁致伸缩驱动器非线性振动系统的混沌特性问题,对该系统的响应随激励频率、激励力参数变化进行了研究。在分析GMA工作原理的基础上,建立了GMA非线性振动系统的数学模型,给出了该系统的振动方程;利用Matlab软件进行了数值仿真分析,通过求解GMA非线性振动系统的响应随激励频率、激励力参数变化分岔图,确定了该系统产生混沌时激励频率、激励力参数的取值范围;采用4阶Runge-Kutta法绘制了GMA非线性振动系统的位移时间历程图、相图、Poincaré映射图、幅值谱图;使用ADAMS软件对位移时间历程曲线进行了实验仿真验证对比。研究结果表明:GMA非线性振动系统具有混沌特性;通过对该系统的混沌特性研究,得到的结论为该系统的混沌特性应用提供了理论依据和技术支持。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the chaotic characteristics of the nonlinear vibration system of giant magnetostrictive actuator,the response of the system was studied with the variation of excitation frequency and excitation force parameters.Based on the analysis of the working principle of GMA,the mathematical model of GMA nonlinear vibration system was established and the vibration equation of the system was given.The numerical simulation analysis was carried out by using Matlab software.By calculating the response of the GMA nonlinear vibration system with the excitation frequency and the excitation force parameter,the range of excitation frequency and excitation force parameters of the system was determined.The displacement time history diagram,phase diagram,Poincarémap and amplitude spectrum of GMA nonlinear vibration system were drawn by the fourth-order Runge-Kutta method.The ADAMS software was used to verify the simulation of the displacement time history curve.The results indicate that the GMA nonlinear vibration system has chaotic characteristics.By studying the chaotic characteristics of the system,the conclusions obtained can provide theoretical basis and technical support for the application of chaotic characteristics of the system.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>超磁致伸缩驱动器</kwd><kwd>非线性振动系统</kwd><kwd>混沌特性</kwd><kwd>分岔</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>giant magnetostrictive actuator(GMA)</kwd><kwd>non-linear vibration system</kwd><kwd>chaos characteristics</kwd><kwd>bifurcation</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>科技部创新方法工作专项资助项目</funding-source>
+<award-id>2017M010660</award-id></award-group>
+<award-group>
+<funding-source>内蒙古自治区自然基金重大项目</funding-source>
+<award-id>2018ZD10</award-id></award-group>
+<funding-statement>科技部创新方法工作专项资助项目(2017M010660)；内蒙古自治区自然基金重大项目(2018ZD10)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

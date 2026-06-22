@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.010</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH161.14</subject><subject>TG51</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于激光辅助的氮化硅陶瓷车削表面质量研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Surface quality of silicon nitride ceramic turning based on laser aided</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>陈德根</string-name>
+<string-name xml:lang="en">CHEN De-gen</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>陈德根(1984-)男,湖南湘潭人,讲师,主要从事智能控制方面的研究。E-mail: <email>cdg2006dg@163.com</email>。</p></bio>
+<email>cdg2006dg@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>于福权</string-name>
+<string-name xml:lang="en">YU Fu-quan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>广东科技学院机电工程学院,广东东莞523083</aff>
+<aff xml:lang="en"><label>1</label>College of Mechanical and Electrical Engineering,Guangdong University of Science&amp;Technology,Dongguan 523083,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>长春职业技术学院工程分院,吉林长春130000</aff>
+<aff xml:lang="en"><label>2</label>Engineering Branch,Changchun VocationalInstitute of Technology,Changchun 130000,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>394</fpage>
+<lpage>398</lpage>
+<abstract><p>针对氮化硅陶瓷材料加工难度大、表面质量难以保证等问题,提出了一种针对氮化硅陶瓷的激光辅助车削方法,通过激光对工件进行了预热,改善了陶瓷材料加工区域的材料特性,降低了材料的硬度和脆性,在减少切削力的同时,有效改善了陶瓷工件的表面质量。首先,利用有限元软件ABAQUS/CAE建立了氮化硅陶瓷材料的本构模型,分析了激光对车削中材料去除的作用效果;然后,设计了激光辅助车削实验,研究了激光功率参数对切削力和表面粗糙度的影响规律,并将实验结果和仿真分析结果进行了对比。研究结果表明:随着激光功率的增加,切削力和表面粗糙度都逐渐降低,实验中切削力最大下降了59.5%,表面粗糙度最大下降了85%,使用激光辅助加工后的表面质量得到了明显提高;同时,实验与仿真结果趋于一致,验证了所建模型的正确性。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problems of difficult processing and surface quality assurance of silicon nitride ceramics,a laser assisted turning method was proposed to process silicon nitride ceramics.The hardness and brittleness of the material were reduced by preheating the work piece by laser,and the surface quality of the ceramic work piece was effectively improved while cutting force was reduced.Firstly,the constitutive model of silicon nitride ceramics was established by finite element software ABAQUS/CAE,and the effect of laser on material removal in turning was analyzed.Laser assisted turning experiments were designed to study the influence of laser power parameters on cutting force and surface roughness,and the experimental results were compared with simulation analysis.The results indicate that with the increase of laser power,the cutting force and surface roughness decrease gradually.In the experiment,the cutting force decreases by 59.5%and the surface roughness decreases by 85%.The surface quality of laser-assisted processing is improved obviously.The results of experiment and simulation are consistent,which verifies the correctness of the model.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>激光辅助加工</kwd><kwd>氮化硅</kwd><kwd>有限元仿真</kwd><kwd>切削力</kwd><kwd>表面粗糙度</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>laser-assisted processing</kwd><kwd>silicon nitride</kwd><kwd>finite element simulation</kwd><kwd>cutting force</kwd><kwd>surface roughness</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>十三五国家重点研发计划项目</funding-source>
+<award-id>2017YFD0701103</award-id></award-group>
+<award-group>
+<funding-source>广东省“创新强校工程”自然科学类重点项目</funding-source>
+<award-id>2015KTSCX164</award-id></award-group>
+<funding-statement>十三五国家重点研发计划项目(2017YFD0701103)；广东省“创新强校工程”自然科学类重点项目(2015KTSCX164)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

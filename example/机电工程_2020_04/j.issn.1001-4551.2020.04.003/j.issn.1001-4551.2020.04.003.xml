@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.003</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH6</subject><subject>TH117.1</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于DEM与MFBD双向耦合的农机触土部件疲劳分析</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Fatigue analysis of the soil-engaging components of agricultural machinery based on bidirectional coupling of DEM and MFBD</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>张元常</string-name>
+<string-name xml:lang="en">ZHANG Yuan-chang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>张元常(1990-),男,贵州贵安人,硕士研究生,主要从事农业机械结构设计优化与疲劳方面的研究。E-mail: <email>350663004@qq.com</email></p></bio>
+<email>350663004@qq.com</email>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>张大斌</string-name>
+<string-name xml:lang="en">ZHANG Da-bin</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>dabinzhang@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>曹阳</string-name>
+<string-name xml:lang="en">CAO Yang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>刘洋</string-name>
+<string-name xml:lang="en">LIU Yang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff3">3</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>贵州大学机械工程学院,贵州贵阳550025</aff>
+<aff xml:lang="en"><label>1</label>School of Mechanical Engineering,Guizhou University,Guiyang 550025,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>贵州大学工程训练中心,贵州贵阳550025</aff>
+<aff xml:lang="en"><label>2</label>Engineering Training Center,Guizhou University,Guiyang 550025,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff3">
+<aff><label>3</label>中铁五局集团建筑工程有限责任公司,贵州贵阳550025</aff>
+<aff xml:lang="en"><label>3</label>Construction Engineering Co.,Ltd.of China Railway 5th Bureau Group,Guiyang 550002,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>张大斌,男,教授,博士生导师。E-mail: <email>dabinzhang@163.com</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>351</fpage>
+<lpage>358</lpage>
+<abstract><p>针对作业过程中农机触土部件出现断裂且实测载荷谱困难的问题,在额定工况下,对农机触土部件的疲劳强度进行了研究,提出了基于离散元法与多柔体动力学双向耦合的疲劳分析方法。以井窖制作机为例,采用非线性有限元柔性体建模法构建了其成穴钻头总成装置刚-柔耦合动力学模型,在此基础上与离散元仿真耦合,数值模拟成穴钻头-土壤相互作用过程,提取了成穴钻头的动态工作载荷谱;基于疲劳分析相关理论,利用疲劳仿真软件预测了成穴钻头的疲劳寿命。研究结果表明:触土部件成穴钻头的疲劳强度薄弱区域位于圆锥面靠小端,仿真预测的破坏区域与实际断裂位置基本吻合,证明了DEM与MFBD双向耦合的疲劳分析方法能够准确地预测成穴钻头的动态响应特性和疲劳寿命,为其疲劳强度设计提供具有价值的参考。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problems of breakage and the difficulty in load spectrum measurement of the soil-engaging components of agricultural machinery,the fatigue strength of the soil-engaging components of agricultural machinery was studied under rated working conditions,the method of fatigue analysis of a bidirectional coupling based on DEM and MFBD was proposed.Taking the well-making machine as an example,a rigid-flexible coupling dynamic model of the cave-forming drill assembly device was constructed by using the FFlex method.On this basis,it was further coupled with the discrete element simulation to simulate the interaction process between the cave-forming drill and soil,and the dynamic working load spectrum of the cave-forming drill was extracted.The fatigue life of the cave-forming drill was predicted by the fatigue simulation software based on the relevant theory of fatigue analysis.The results indicate that the weak area of fatigue strength of the cave-forming drill is located near the small end of the conical surface,the simulated prediction of the failure area is basically consistent with the actual fracture position,and it verifies that the fatigue analysis method of bidirectional coupling based DEM and MFBD can accurately predict the dynamic response characteristics and fatigue life of the cave-forming drill,and provide a valuable reference for its fatigue strength design.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>农业机械</kwd><kwd>触土部件</kwd><kwd>离散元法</kwd><kwd>多柔体动力学</kwd><kwd>井窖制作机</kwd><kwd>非线性有限元柔性体建模法</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>agricultural machinery</kwd><kwd>soil-engaging components</kwd><kwd>discrete element method(DEM)</kwd><kwd>multi-flexible body dynamics(MFBD)</kwd><kwd>well-making machine</kwd><kwd>modeling method of the non-linear finite element flexible body(FFlex)</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>贵州省科技计划资助项目</funding-source>
+<award-id>[2019]5616</award-id></award-group>
+<award-group>
+<funding-source>广西中烟工业有限责任公司科技项目</funding-source>
+<award-id>2018450000340008</award-id></award-group>
+<award-group>
+<funding-source>贵州大学机械工程“技术众筹”研究生创新基地项目</funding-source>
+<award-id>CXJD[2015]003</award-id></award-group>
+<funding-statement>贵州省科技计划资助项目([2019]5616)；广西中烟工业有限责任公司科技项目(2018450000340008)；贵州大学机械工程“技术众筹”研究生创新基地项目(CXJD[2015]003)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

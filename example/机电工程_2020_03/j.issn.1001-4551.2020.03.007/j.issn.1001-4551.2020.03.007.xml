@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.007</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH211.6</subject><subject>TH137.51</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于ADAMS的折臂式高空作业车展开作业稳定性分析</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Stability analysis on unfolding process of articulating boom lifting vehicle based on ADAMS</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王昭君</string-name>
+<string-name xml:lang="en">WANG Zhao-jun</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>王昭君(1994-),女,江苏徐州人,硕士研究生,主要从事高空作业平台稳定性分析方面的研究。E-mail: <email>1466379761@qq.com</email></p></bio>
+<email>1466379761@qq.com</email>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>何雪浤</string-name>
+<string-name xml:lang="en">HE Xue-hong</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>xhhe@me.neu.edu.cn</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>周振东</string-name>
+<string-name xml:lang="en">ZHOU Zhen-dong</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>谢里阳</string-name>
+<string-name xml:lang="en">XIE Li-yang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>东北大学航空动力装备振动及控制教育部重点实验室,辽宁沈阳110819</aff>
+<aff xml:lang="en"><label>1</label>Key Laboratory of Vibration and Control of Aero-Propulsion System of Ministry of Education,Northeastern University,Shenyang 110819,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>江苏东迈重工机械有限公司,江苏昆山215334</aff>
+<aff xml:lang="en"><label>2</label>Jiangsu Eastman Heavy Machinery Co.,Ltd.,Kunshan 215334,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>何雪浤,女,博士,副教授。E-mail: <email>xhhe@me.neu.edu.cn</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>259</fpage>
+<lpage>263,276</lpage>
+<abstract><p>针对折臂式高空作业车臂架结构展开过程中的稳定性问题,利用ADAMS软件建立了整车结构的动力学模型,对臂架结构由极限回缩状态至极限伸展状态的全行程动作进行了仿真,并导入了质心轨迹求解程序,得到了在不同展开方式与作业顺序下的整机质心横向偏离曲线;结合重力法,分析了臂架结构在顺序展开和同步展开方式下的稳定性;同时通过对比质心横向偏距的大小,研究了不同的作业顺序对展开作业稳定性的影响。研究结果表明:该作业车具有良好的展开作业稳定性,且在顺序展开基础上,通过自下而上、先变幅后伸缩的作业顺序可以进一步提高展开过程中的稳定性;上述方法可推广到其他折臂式高空作业车展开作业稳定性的分析中。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the stability problem during the unfolding process of the articulating boom lifting vehicle, dynamic models of the vehicle were made by software ADAMS, and the full-stroke action from the folded state to the extreme extension state was simulated. The centroid trajectory solving program was imported to obtain the lateral offset curves of the centroid of the whole machine under different expansion modes and operation sequences. Combined with the gravity method, the stability of the boom structure under the sequential expansion and synchronous expansion was analyzed. The influence of different operation sequences on the stability of the unfolding process was considered by comparing the lateral offset of the centroid. The results indicate that the lifting vehicle has good stability, and the sequential expansion from bottom to up, first-unfolding to post-extension can further improve the stability during the unfolding process. The above method can be applied to the analysis of the stability of other articulating boom lifting vehicles.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>折臂式高空作业车</kwd><kwd>展开作业稳定性</kwd><kwd>展开方式</kwd><kwd>质心轨迹</kwd><kwd>ADAMS</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>articulating boom lifting vehicle</kwd><kwd>unfolding stability</kwd><kwd>expansion modes</kwd><kwd>centroid trajectory</kwd><kwd>ADAMS</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家自然科学基金重点资助项目</funding-source>
+<award-id>U1708255</award-id></award-group>
+<funding-statement>国家自然科学基金重点资助项目(U1708255)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

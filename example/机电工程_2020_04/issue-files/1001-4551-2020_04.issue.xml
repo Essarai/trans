@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE issue-xml PUBLIC " -//ZD//DTD ZD JATS Journal Archiving and Interchange Issue XML DTD v1.2 20230401//EN" "ZD-Issue-Xml.dtd">
+<issue-xml xmlns:xlink="http://www.w3.org/1999/xlink">
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<issue-meta>
+<pub-date publication-format="print" date-type="pub">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+</issue-meta>
+<toc><issue-subject-group>
+<issue-subject-title>
+<issue-subject>机械、仪表技术</issue-subject>
+<trans-issue-subject xml:lang="en">
+<issue-subject>Machinery and Instrumentation Technology</issue-subject>
+</trans-issue-subject>
+</issue-subject-title><issue-article-meta>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.001\j.issn.1001-4551.2020.04.001.xml">
+<article-title>多自由度电机中的气体静压球轴承特性分析</article-title>
+<page>337</page>
+<trans-article xml:lang="en">
+<article-title>Characteristic analysis of air bearing for multi-degree-of-freedom motor</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.002\j.issn.1001-4551.2020.04.002.xml">
+<article-title>新型无耦合两转动并联机构运动学及性能分析</article-title>
+<page>344</page>
+<trans-article xml:lang="en">
+<article-title>Kinematics and performance analysis of a novel uncoupled 2-DOF rotational parallel mechanism</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.003\j.issn.1001-4551.2020.04.003.xml">
+<article-title>基于DEM与MFBD双向耦合的农机触土部件疲劳分析</article-title>
+<page>351</page>
+<trans-article xml:lang="en">
+<article-title>Fatigue analysis of the soil-engaging components of agricultural machinery based on bidirectional coupling of DEM and MFBD</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.004\j.issn.1001-4551.2020.04.004.xml">
+<article-title>车门结构多目标轻量化研究</article-title>
+<page>359</page>
+<trans-article xml:lang="en">
+<article-title>Multi-objective lightweight research of a door structure</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.005\j.issn.1001-4551.2020.04.005.xml">
+<article-title>涡旋压缩机轴向平衡电磁力的自适应提前跟踪研究</article-title>
+<page>365</page>
+<trans-article xml:lang="en">
+<article-title>Adaptive advance tracking of electromagnetic force for vortex machine axial balance ofscroll compressor</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.006\j.issn.1001-4551.2020.04.006.xml">
+<article-title>驱动桥锥齿轮错位量的有限元建模和分析</article-title>
+<page>371</page>
+<trans-article xml:lang="en">
+<article-title>Finite element modeling and analysis for misalignments of bevel gears of drive axle</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.007\j.issn.1001-4551.2020.04.007.xml">
+<article-title>基于ACPSO-SVDD的齿轮箱故障异常检测方法研究</article-title>
+<page>377</page>
+<trans-article xml:lang="en">
+<article-title>Anomaly detection of gearbox fault based on ACPSO-SVDD</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.008\j.issn.1001-4551.2020.04.008.xml">
+<article-title>第三轨受流器滑板螺栓联接残余预紧力特性研究</article-title>
+<page>383</page>
+<trans-article xml:lang="en">
+<article-title>Residual preload characteristics of bolt connection of the third rail receiver slide</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.009\j.issn.1001-4551.2020.04.009.xml">
+<article-title>液动压悬浮抛光固液两相流CFD数值模拟及PIV验证</article-title>
+<page>389</page>
+<trans-article xml:lang="en">
+<article-title>CFD numerical simulation of solid-liquid two-phase flow and PIV verification in hydrodynamic suspension polishing</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.010\j.issn.1001-4551.2020.04.010.xml">
+<article-title>基于激光辅助的氮化硅陶瓷车削表面质量研究</article-title>
+<page>394</page>
+<trans-article xml:lang="en">
+<article-title>Surface quality of silicon nitride ceramic turning based on laser aided</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.011\j.issn.1001-4551.2020.04.011.xml">
+<article-title>GMA非线性振动系统混沌特性研究</article-title>
+<page>399</page>
+<trans-article xml:lang="en">
+<article-title>Chaotic characteristics of giant magnetostrictive actuator nonlinear vibration system</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.012\j.issn.1001-4551.2020.04.012.xml">
+<article-title>基于2D激光测量技术的矿用通风机叶尖间隙测量方法研究</article-title>
+<page>405</page>
+<trans-article xml:lang="en">
+<article-title>Measurement method of tip clearance of mine ventilator based on 2D laser measurement technology</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.013\j.issn.1001-4551.2020.04.013.xml">
+<article-title>基于声发射分析的磨料流光整加工在线检测试验研究</article-title>
+<page>410</page>
+<trans-article xml:lang="en">
+<article-title>On-line testing of abrasive flow finishing based on AE analysis</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.014\j.issn.1001-4551.2020.04.014.xml">
+<article-title>基于双向机器视觉的非透明模板副对准控制研究</article-title>
+<page>415</page>
+<trans-article xml:lang="en">
+<article-title>Alignment control of non-transparent mold plates based on bidirectional machine vision</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.015\j.issn.1001-4551.2020.04.015.xml">
+<article-title>基于GAPSO算法的转台齿轮传动多目标优化研究</article-title>
+<page>420</page>
+<trans-article xml:lang="en">
+<article-title>Multi-objective optimization of turntable gear transmission based on GAPSO algorithm</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.016\j.issn.1001-4551.2020.04.016.xml">
+<article-title>基于RBF的主动悬架反演滑模控制策略研究</article-title>
+<page>425</page>
+<trans-article xml:lang="en">
+<article-title>Active suspension inversion sliding mode control strategy based on RBF</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.017\j.issn.1001-4551.2020.04.017.xml">
+<article-title>焊接发尘率测量装置及测控系统的研究</article-title>
+<page>429</page>
+<trans-article xml:lang="en">
+<article-title>Test equipment for measurement and control system of welding fume formation rate</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.018\j.issn.1001-4551.2020.04.018.xml">
+<article-title>波形套轴向受压仿真与参数优化研究</article-title>
+<page>434</page>
+<trans-article xml:lang="en">
+<article-title>Simulation and parameter optimization of corrugated sleeve under axial compression</article-title>
+</trans-article>
+</article-file>
+</issue-article-meta>
+</issue-subject-group>
+<issue-subject-group>
+<issue-subject-title>
+<issue-subject>机电一体化技术</issue-subject>
+<trans-issue-subject xml:lang="en">
+<issue-subject>Mechatronics</issue-subject>
+</trans-issue-subject>
+</issue-subject-title><issue-article-meta>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.019\j.issn.1001-4551.2020.04.019.xml">
+<article-title>基于驱控一体的伺服压力机控制系统研究</article-title>
+<page>438</page>
+<trans-article xml:lang="en">
+<article-title>Servo press control system based on integrated drive and control technology</article-title>
+</trans-article>
+</article-file>
+</issue-article-meta>
+</issue-subject-group>
+<issue-subject-group>
+<issue-subject-title>
+<issue-subject>自动化、计算机技术</issue-subject>
+<trans-issue-subject xml:lang="en">
+<issue-subject>Automation and Computer Technology</issue-subject>
+</trans-issue-subject>
+</issue-subject-title><issue-article-meta>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.020\j.issn.1001-4551.2020.04.020.xml">
+<article-title>混合动力挖掘机电动回转系统速度控制研究</article-title>
+<page>446</page>
+<trans-article xml:lang="en">
+<article-title>Speed control of electric drive swing system in hybrid excavator</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.021\j.issn.1001-4551.2020.04.021.xml">
+<article-title>用于微创外科的线驱动连续型手术机器人设计与仿真研究</article-title>
+<page>451</page>
+<trans-article xml:lang="en">
+<article-title>Design and simulation of line-driven continuum surgical robot for minimally invasive surgery</article-title>
+</trans-article>
+</article-file>
+</issue-article-meta>
+</issue-subject-group>
+<issue-subject-group>
+<issue-subject-title>
+<issue-subject>电工技术</issue-subject>
+<trans-issue-subject xml:lang="en">
+<issue-subject>Electrotechnics</issue-subject>
+</trans-issue-subject>
+</issue-subject-title><issue-article-meta>
+<article-file xlink:href="..\j.issn.1001-4551.2020.04.022\j.issn.1001-4551.2020.04.022.xml">
+<article-title>基于无功补偿装置关键试验的检测装置研究</article-title>
+<page>456</page>
+<trans-article xml:lang="en">
+<article-title>Testing device based on key test of reactive power compensation</article-title>
+</trans-article>
+</article-file>
+</issue-article-meta>
+</issue-subject-group>
+</toc>
+</issue-xml>

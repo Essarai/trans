@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.013</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH16</subject><subject>TG58</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于超声振动的硬脆性材料磨削加工入孔崩边研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Study on the hole edge of hard and brittle materials based on ultrasonic vibration assisted grinding</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>谭丽娜</string-name>
+<string-name xml:lang="en">TAN Li-na</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>谭丽娜(1982-),女,吉林农安人,硕士,讲师,主要从事电子与通讯工程方面的研究。E-mail: <email>tanlina_tanlina@163.com</email>。</p></bio>
+<email>tanlina_tanlina@163.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>白冰</string-name>
+<string-name xml:lang="en">BAI Bing</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>长春职业技术学院工程分院,吉林长春130000</aff>
+<aff xml:lang="en"><label>1</label>Engineering Branch,Changchun Vocational Institute of Technology,Changchun 130000,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>293</fpage>
+<lpage>297</lpage>
+<abstract><p>针对陶瓷等硬脆材料磨削加工中出现的崩边问题,对氧化锆陶瓷孔加工过程中出现的入孔崩边情况进行了研究。使用有限元软件ABAQUS,对超声振动辅助磨削氧化锆陶瓷孔加工进行了仿真,建立了氧化锆陶瓷JH2本构模型;研究了入孔崩边的形成机理,结合有限元仿真结果,设计了超声振动辅助磨削氧化锆陶瓷孔加工实验;通过建立入孔崩边的评价指标,分析了主轴转速、进给速度和超声功率对入孔崩边的影响规律,并对仿真结果进行了验证。研究结果表明:和实验相比,仿真得出的崩边面积平均误差在10%以内;随着主轴转速和超声功率的增加,入孔崩边情况得到明显的改善,在100%超声功率条件下崩边面积减少了38%以上,随着进给速度的增加入孔崩边面积明显增大。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problem of edge chipping in grinding of hard and brittle materials, the situation of hole edge chipping in processing of zirconia ceramics was studied. The ABAQUS was used to simulate the ultrasonic vibration assisted grinding of zirconia ceramic hole machining. And the zirconia ceramic JH2 constitutive model was established to study the formation mechanism of the hole chipping. Combined with finite element simulation results, ultrasonic vibration assisted grinding of zirconia ceramic hole machining experiments was designed. By establishing the evaluation index of the hole chipping, the influence of the spindle speed, feed rate and ultrasonic power on the hole chipping was analyzed and the simulation results were verified. The results show that the average error of chipping area between simulated and experimental is less than 10%. As the spindle speed and ultrasonic power increase, the hole chipping condition is significantly improved. Under the condition of 100% ultrasonic power, the area of chipping is reduced by more than 38%, and the area of hole chipping is obviously increased with the increase of feed rate.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>超声振动</kwd><kwd>硬脆性材料</kwd><kwd>磨削加工</kwd><kwd>有限元仿真</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>ultrasonic vibration</kwd><kwd>hard and brittle materials</kwd><kwd>grinding</kwd><kwd>finite element simulation</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>国家自然科学基金资助项目</funding-source>
+<award-id>316723484</award-id></award-group>
+<funding-statement>国家自然科学基金资助项目(316723484)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

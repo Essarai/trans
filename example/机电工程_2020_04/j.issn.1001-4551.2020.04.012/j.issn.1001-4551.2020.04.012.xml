@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.012</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH432</subject><subject>TH741.1</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于2D激光测量技术的矿用通风机叶尖间隙测量方法研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Measurement method of tip clearance of mine ventilator based on 2D laser measurement technology</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李学哲</string-name>
+<string-name xml:lang="en">LI Xue-zhe</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>李学哲(1976-),男,朝鲜族,吉林通化人,硕士,副教授,主要从事精密测量技术与仪器方面的研究。E-mail: <email>xuezheli@sina.com</email>。</p></bio>
+<email>xuezheli@sina.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>李清林</string-name>
+<string-name xml:lang="en">LI Qing-lin</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>韩宇</string-name>
+<string-name xml:lang="en">HAN Yu</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>黄亚坤</string-name>
+<string-name xml:lang="en">HUANG Ya-kun</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>华北科技学院机电工程学院,河北三河065201</aff>
+<aff xml:lang="en"><label>1</label>College of Mechanical and Electrical Engineering,North China Instituteof Science and Technology,Sanhe 065201,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>405</fpage>
+<lpage>409</lpage>
+<abstract><p>针对矿用通风机叶尖间隙测量方法存在精度和自动化水平低等问题,对间隙测量技术、表征及评价方法等进行了研究,提出了一种基于2D激光测量的矿用通风机叶尖间隙测量方法。采用LS-100CN激光轮廓测量传感器采集了叶尖间隙几何信息,然后通过投影变换、特征提取等技术实现了叶尖间隙的高精度测量;采用叶片形位偏差、机壳形状偏差、综合叶尖间隙等参数,综合地表征和评价了通风机叶尖间隙的实际几何状态,得到了更全面、更科学的评价结果。研究结果表明:该方法具有精度高、非接触等特点,显著提高了测量的效率、精度和智能化水平。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problems of low accuracy,low automation level in the measurement methods of tip clearance of mine ventilator,a measurement method for tip clearance of mine ventilator based on 2D laser measurement was proposed.The geometric information of tip clearance was collected by a laser profile measurement sensor of LS-100CN,and the high-precision measurement of tip clearance was achieved by technologies of projection transformation and feature extraction.The parameters of form and position deviation of blades,form deviation of ventilator case and comprehensive tip clearance were used,the authentic geometric state of tip clearance was characterized and evaluated,and the more comprehensive and scientific evaluation results were obtained.The results show that the method has the characteristics of high accuracy and non-contact,and it can significantly improve the efficiency,accuracy and intelligent level of measurement.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>2D激光测量</kwd><kwd>矿用通风机</kwd><kwd>叶尖间隙</kwd><kwd>精度优化</kwd><kwd>表征与评价</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>2D laser measurement</kwd><kwd>mine ventilator</kwd><kwd>tip clearance</kwd><kwd>precision optimization</kwd><kwd>characterization and evaluation</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>中央高校基本科研业务费资助项目</funding-source>
+<award-id>3142018054</award-id><award-id>3142015094</award-id></award-group>
+<funding-statement>中央高校基本科研业务费资助项目(3142018054,3142015094)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

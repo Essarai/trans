@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE issue-xml PUBLIC " -//ZD//DTD ZD JATS Journal Archiving and Interchange Issue XML DTD v1.2 20230401//EN" "ZD-Issue-Xml.dtd">
+<issue-xml xmlns:xlink="http://www.w3.org/1999/xlink">
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<issue-meta>
+<pub-date publication-format="print" date-type="pub">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+</issue-meta>
+<toc><issue-subject-group>
+<issue-subject-title>
+<issue-subject>机械、仪表技术</issue-subject>
+<trans-issue-subject xml:lang="en">
+<issue-subject>Machinery and Instrumentation Technology</issue-subject>
+</trans-issue-subject>
+</issue-subject-title><issue-article-meta>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.001\j.issn.1001-4551.2020.03.001.xml">
+<article-title>叶片仿鲨鱼鳍的导叶式离心泵数值仿真研究</article-title>
+<page>221</page>
+<trans-article xml:lang="en">
+<article-title>Numerical simulation of the guided vane centrifugal pump with bionic shark fin blade</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.002\j.issn.1001-4551.2020.03.002.xml">
+<article-title>基于领域对抗网络的轴承故障诊断方法研究</article-title>
+<page>227</page>
+<trans-article xml:lang="en">
+<article-title>Fault diagnosis method for bearings based on domain adversarial neural networks</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.003\j.issn.1001-4551.2020.03.003.xml">
+<article-title>复杂产品拆卸层次模型与构建方法研究</article-title>
+<page>234</page>
+<trans-article xml:lang="en">
+<article-title>Research on disassembly hierarchy model and its construction method for complex products</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.004\j.issn.1001-4551.2020.03.004.xml">
+<article-title>基于MED-EEMD和ELM的轴向柱塞泵松靴故障诊断研究</article-title>
+<page>241</page>
+<trans-article xml:lang="en">
+<article-title>Loose slipper fault diagnosis of axial piston pump based on MED-EEMD and ELM</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.005\j.issn.1001-4551.2020.03.005.xml">
+<article-title>基于不同工作载荷的铲斗结构特性分析</article-title>
+<page>247</page>
+<trans-article xml:lang="en">
+<article-title>Analysis of bucket structure characteristics based on different working loads</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.006\j.issn.1001-4551.2020.03.006.xml">
+<article-title>热交换管内壁子午面半椭圆裂纹应力强度因子数值计算</article-title>
+<page>253</page>
+<trans-article xml:lang="en">
+<article-title>Numerical calculation of the stress intensity factor of heat exchange tube inner surface meridian plane containing semi-elliptical crack</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.007\j.issn.1001-4551.2020.03.007.xml">
+<article-title>基于ADAMS的折臂式高空作业车展开作业稳定性分析</article-title>
+<page>259</page>
+<trans-article xml:lang="en">
+<article-title>Stability analysis on unfolding process of articulating boom lifting vehicle based on ADAMS</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.008\j.issn.1001-4551.2020.03.008.xml">
+<article-title>基于配载划分的穿梭式立体货架抗震性能研究</article-title>
+<page>264</page>
+<trans-article xml:lang="en">
+<article-title>Seismic performance of shuttle stereo shelf based on load distribution</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.009\j.issn.1001-4551.2020.03.009.xml">
+<article-title>圆锥滚子轴承挡边倾角的优化研究</article-title>
+<page>271</page>
+<trans-article xml:lang="en">
+<article-title>Optimization of rib angle of tapered roller bearings</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.010\j.issn.1001-4551.2020.03.010.xml">
+<article-title>基于可制造性的汽车B柱轻量化设计分析</article-title>
+<page>277</page>
+<trans-article xml:lang="en">
+<article-title>Lightweight analysis of vehicle B-pillars based on manufacturability</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.011\j.issn.1001-4551.2020.03.011.xml">
+<article-title>某微型电动商用车车架轻量化优化研究</article-title>
+<page>283</page>
+<trans-article xml:lang="en">
+<article-title>Optimization of lightweight frame for a micro-electric commercial vehicle</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.012\j.issn.1001-4551.2020.03.012.xml">
+<article-title>基于车削试验法的刀具摩擦性能研究</article-title>
+<page>288</page>
+<trans-article xml:lang="en">
+<article-title>Tool friction performance based on turning test method</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.013\j.issn.1001-4551.2020.03.013.xml">
+<article-title>基于超声振动的硬脆性材料磨削加工入孔崩边研究</article-title>
+<page>293</page>
+<trans-article xml:lang="en">
+<article-title>Study on the hole edge of hard and brittle materials based on ultrasonic vibration assisted grinding</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.014\j.issn.1001-4551.2020.03.014.xml">
+<article-title>基于安全自锁的扇形结构的摆锤式冲击试验机安全销系统研究</article-title>
+<page>298</page>
+<trans-article xml:lang="en">
+<article-title>Safety pin system of pendulum impact testing machine based on sector structure and safety self-locking</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.015\j.issn.1001-4551.2020.03.015.xml">
+<article-title>声发射信号降噪及在裂纹检测中的应用研究</article-title>
+<page>303</page>
+<trans-article xml:lang="en">
+<article-title>De-nosing of acoustic emission signal and its application in crack detection</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.016\j.issn.1001-4551.2020.03.016.xml">
+<article-title>基于Pro/E行为建模方法的参数化设计方法研究</article-title>
+<page>307</page>
+<trans-article xml:lang="en">
+<article-title>Parametric design based on Pro/E behavior modeling method</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.017\j.issn.1001-4551.2020.03.017.xml">
+<article-title>重型柴油机EGR支架的轻量化改进研究</article-title>
+<page>311</page>
+<trans-article xml:lang="en">
+<article-title>Lightweight improvement of EGR bracket for heavy-duty diesel engine</article-title>
+</trans-article>
+</article-file>
+</issue-article-meta>
+</issue-subject-group>
+<issue-subject-group>
+<issue-subject-title>
+<issue-subject>机电一体化技术</issue-subject>
+<trans-issue-subject xml:lang="en">
+<issue-subject>Mechatronics</issue-subject>
+</trans-issue-subject>
+</issue-subject-title><issue-article-meta>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.018\j.issn.1001-4551.2020.03.018.xml">
+<article-title>基于ESO的轧机单辊传动系统负荷平衡控制研究</article-title>
+<page>315</page>
+<trans-article xml:lang="en">
+<article-title>Load balance control of rolling mill single roller transmission system based on extended state observer</article-title>
+</trans-article>
+</article-file>
+</issue-article-meta>
+</issue-subject-group>
+<issue-subject-group>
+<issue-subject-title>
+<issue-subject>自动化、计算机技术</issue-subject>
+<trans-issue-subject xml:lang="en">
+<issue-subject>Automation and Computer Technology</issue-subject>
+</trans-issue-subject>
+</issue-subject-title><issue-article-meta>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.019\j.issn.1001-4551.2020.03.019.xml">
+<article-title>多规格箱体码垛工作站的设计与实现</article-title>
+<page>321</page>
+<trans-article xml:lang="en">
+<article-title>Design and implementation of multiple species box stacking workstation</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.020\j.issn.1001-4551.2020.03.020.xml">
+<article-title>基于深度学习的零件点云分割算法研究</article-title>
+<page>326</page>
+<trans-article xml:lang="en">
+<article-title>Part point cloud segmentation algorithm based on deep learning</article-title>
+</trans-article>
+</article-file>
+<article-file xlink:href="..\j.issn.1001-4551.2020.03.021\j.issn.1001-4551.2020.03.021.xml">
+<article-title>风光互补空气集水系统设计</article-title>
+<page>332</page>
+<trans-article xml:lang="en">
+<article-title>Design of air water collection system with complementary scenery</article-title>
+</trans-article>
+</article-file>
+</issue-article-meta>
+</issue-subject-group>
+</toc>
+</issue-xml>

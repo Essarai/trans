@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.03.010</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH16</subject><subject>U467.1</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于可制造性的汽车B柱轻量化设计分析</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Lightweight analysis of vehicle B-pillars based on manufacturability</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王涛</string-name>
+<string-name xml:lang="en">WANG Tao</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>王涛(1985-),男,河南安阳人,硕士,讲师,主要从事工业设计、机械设计等方面的研究。E-mail: <email>ljsdez@126.com</email>。</p></bio>
+<email>ljsdez@126.com</email>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>安阳工学院机械工程学院,河南安阳455000</aff>
+<aff xml:lang="en"><label>1</label>School of Mechanical Engineering,Anyang Institute of Technology,Anyang 455000,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>3</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>3</issue>
+<fpage>277</fpage>
+<lpage>282</lpage>
+<abstract><p>针对B柱采用激光拼焊进行轻量化设计的问题,基于B柱的可制造性分析,采用了正交试验法,对B柱拼焊材料选定、焊缝位置设计、拼焊材料厚度等进行了研究。以B柱侧面碰撞安全性分析为基础,以碰撞过程中的最大侵入量和最大侵入速度为评价目标,对原设计方案和新设计方案的安全性进行了对比分析;在满足侧碰五星标准的前提下,将减重最多的方案作为最优的轻量化设计方案;对实际生产B柱的型面公差、最大减薄率、碰撞安全性进行了分析。研究结果表明:焊缝位置距离底端380 mm位置最优;当材料组合为DP800/DP600,厚度为1.8 mm/1.6 mm,B柱质量由4.449 kg降为3.50 kg,减重了21.3%;通过配合调整冲压工艺参数,B柱产品经检测后,型面合格率100%,最大减薄率21.1%,符合要求;侧面碰撞试验表明强度满足要求,且仿真与实验结果基本一致,误差在4%以内,分析结果可靠。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problem of lightweight design by laser beam welding for B-pillar, based on the B-pillar manufacturability analysis, the orthogonal test method was used. The safety analysis of the B-pillar under side collision, based on the maximum intrusion volume and intrusion speed in the collision process, the safety comparison analysis was carried out. Under the premise of meeting the five-star standard of side collision, the scheme with the most weight loss was the optimal lightweight design. The profile tolerance, maximum thinning rate, and collision safety of the actual production B-pillar was analyzed. The results indicate that the position of the weld seam is finally selected from the bottom end of 380 mm is optimal. The final material combination is DP800/DP600, and the thickness is 1.8 mm/1.6 mm, the quality of the B-pillar is reduced from 4.449 kg to 3.50 kg, and the weight loss is 21.3%. By adjusting the stamping process parameters, the B-pillar product is tested. The pass rate of the profile is 100%, and the maximum thinning rate is 21.1%, which is in line with the requirements of the OEM. The side impact test shows that the strength meets the requirements and the simulation and experimental results are basically the same, and the error is within 4%, indicating the reliability of the analysis.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>汽车B柱</kwd><kwd>轻量化</kwd><kwd>激光拼焊板</kwd><kwd>侧面碰撞</kwd><kwd>可制造性</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>vehicle B-pillars</kwd><kwd>lightweight</kwd><kwd>tailor-welded blank</kwd><kwd>side collision</kwd><kwd>manufacturability</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>河南省高等教育教学改革研究与实践项目</funding-source>
+<award-id>2017SJGLX117</award-id></award-group>
+<award-group>
+<funding-source>河南省高等学校青年骨干教师培养计划资助项目</funding-source>
+<award-id>2016GGJS-151</award-id></award-group>
+<funding-statement>河南省高等教育教学改革研究与实践项目(2017SJGLX117)；河南省高等学校青年骨干教师培养计划资助项目(2016GGJS-151)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

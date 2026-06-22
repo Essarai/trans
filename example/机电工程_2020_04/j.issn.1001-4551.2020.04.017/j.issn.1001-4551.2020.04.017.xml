@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.017</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>机械、仪表技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Machinery and Instrumentation Technology</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TH86</subject><subject>TG40</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>焊接发尘率测量装置及测控系统的研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Test equipment for measurement and control system of welding fume formation rate</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>罗佳</string-name>
+<string-name xml:lang="en">LUO Jia</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>罗佳(1995-),男,湖北孝感人,硕士研究生,主要从事焊接烟尘测试技术方面的研究。E-mail: <email>1144014821@qq.com</email></p></bio>
+<email>1144014821@qq.com</email>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name-alternatives>
+<string-name>卜智翔</string-name>
+<string-name xml:lang="en">BU Zhi-xiang</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<xref ref-type="corresp" rid="COR1" />
+<email>bzxwh@sina.com.cn</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>朱师琦</string-name>
+<string-name xml:lang="en">ZHU Shi-qi</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>孟庆润</string-name>
+<string-name xml:lang="en">MENG Qing-run</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>王立世</string-name>
+<string-name xml:lang="en">WANG Li-shi</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>湖北工业大学材料与化学工程学院,湖北武汉430068</aff>
+<aff xml:lang="en"><label>1</label>School of Materials and Chemical Engineering,Hubei University of Technology,Wuhan 430068,China</aff>
+</aff-alternatives>
+<aff-alternatives id="aff2">
+<aff><label>2</label>武汉铁锚焊接材料股份有限公司,湖北武汉430085</aff>
+<aff xml:lang="en"><label>2</label>Wuhan Temo Welding Consumables Co.,LTD.,Wuhan 430085,China</aff>
+</aff-alternatives>
+</contrib-group>
+<author-notes>
+<corresp id="COR1"><heading>通讯作者：</heading>卜智翔,男,博士,讲师。E-mail: <email>bzxwh@sina.com.cn</email>。</corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>429</fpage>
+<lpage>433</lpage>
+<abstract><p>针对熔化极气体保护焊(GMAW)焊接发尘率的测量准确性问题,对焊接发尘率测量过程中涉及的信号检测和控制装置进行了研究,研发了一种焊接发尘率测量装置的测控系统,实现了对GMAW焊接过程中焊接电流、焊接电压和焊接速度等焊接工艺参数的准确测量或控制。通过对该测量系统的检测和控制过程的分析,设计了运动控制系统、抽滤系统和数据采集系统,建立了系统的控制时序;在LabVIEW平台上实现了对测量过程的实时监控,并完成了对检测数据的自动化采集、分析和存储。研究结果表明:该系统能够实现焊接工艺参数测量和控制的功能,测量精度和测量准确性均能满足设计要求。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problem of the measurement accuracy on the fume formation rate of GMAW,a test equipment for measurement and control system of welding fume formation rate was developed by studying the signal detection and control equipment in the measurement of welding fume formation rate.The welding process parameters were measured or controlled accurately in terms of welding current,welding voltage and welding speed in the GMAW welding process.The motion control system,suction filter system and data acquisition system were designed and control timing of the system was established through the analysis of the detection and control process of the measurement system.The real-time monitoring of the measurement process was achieved,and the acquisition,analysis and storage of data automatically was completed by applying the LabVIEW platform.The results indicate that the system can realize the measurement and control functions of welding process parameters,and the measurement accuracy and precision can meet the design requirements.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>熔化极气体保护焊</kwd><kwd>数据采集</kwd><kwd>发尘率</kwd><kwd>LabVIEW</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>gas metal arc welding(GMAW)</kwd><kwd>data acquisition</kwd><kwd>fume formation rate(FFR)</kwd><kwd>LabVIEW</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>湖北省教育厅科学研究计划资助项目</funding-source>
+<award-id>B200714002</award-id></award-group>
+<funding-statement>湖北省教育厅科学研究计划资助项目(B200714002)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>

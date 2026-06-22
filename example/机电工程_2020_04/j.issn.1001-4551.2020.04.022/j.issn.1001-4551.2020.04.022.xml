@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<article dtd-version="1.3" xml:lang="zh" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZD_JATS-archivearticle1-3.xsd">
+<front>
+<journal-meta>
+<journal-title-group>
+<journal-title>机电工程</journal-title>
+</journal-title-group>
+<issn publication-format="print">1001-4551</issn>
+<cn publication-format="print">33-1088/TH</cn>
+<publisher>
+<publisher-name>浙江大学</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3969/j.issn.1001-4551.2020.04.022</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>电工技术</subject>
+</subj-group>
+<subj-group subj-group-type="heading" xml:lang="en">
+<subject>Electrotechnics</subject>
+</subj-group>
+<subj-group subj-group-type="clc">
+<subject>TM714.3</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>基于无功补偿装置关键试验的检测装置研究</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Testing device based on key test of reactive power compensation</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group content-type="author">
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>信天</string-name>
+<string-name xml:lang="en">XIN Tian</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+<bio><heading>作者简介：</heading><p>信天(1982-),男,山东济南人,高级工程师,主要从事电器检测及标准化技术方面的研究。E-mail: <email>406700830@qq.com</email>。</p></bio>
+<email>406700830@qq.com</email>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>周媛</string-name>
+<string-name xml:lang="en">ZHOU Yuan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>张超</string-name>
+<string-name xml:lang="en">ZHANG Chao</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>刘通</string-name>
+<string-name xml:lang="en">LIU Tong</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name-alternatives>
+<string-name>田列远</string-name>
+<string-name xml:lang="en">TIAN Lie-yuan</string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+<aff-alternatives id="aff1">
+<aff><label>1</label>山东省产品质量检验研究院,山东济南250102</aff>
+<aff xml:lang="en"><label>1</label>Shandong Institute of Inspection on Product Quality,Jinan 250102,China</aff>
+</aff-alternatives>
+</contrib-group>
+<pub-date date-type="pub" publication-format="print">
+<day>1</day>
+<month>4</month>
+<year>2020</year>
+</pub-date>
+<volume>37</volume>
+<issue>4</issue>
+<fpage>456</fpage>
+<lpage>460</lpage>
+<abstract><p>针对无功补偿装置动态响应时间检测和抑制谐波或滤波功能验证两个关键试验中存在的问题,对其验证实验的方法、设备、波形图及试验数据等方面进行了研究,提出了一种满足其验证的综合检测装置和控制方法。检测了无功补偿装置动态响应时间,验证了抑制谐波或滤波功能;采用数字逆变的方式,通过编程实现了负载电流;采用能量回馈技术减少了能源损耗。研究结果表明:该装置能够实现负载电流的发生,具有电压稳定、谐波小、电压及频率可灵活调节的优点。</p></abstract>
+<abstract abstract-type="section" xml:lang="en"><p>Aiming at the problems of dynamic response time detection and harmonic suppression or filtering function verification in the two key tests of reactive power compensation device,the methods,equipment,waveform diagram and test data of the experiment for dynamic response time detection test and harmonic suppression or filtering function verification were studied,a comprehensive detection device and control method was proposed to meet the requirements of test.The dynamic response time of reactive power compensation device and the verification of harmonic suppression or filtering function were satisfied.The load current was realized by digital inverter by programming,and the energy feedback technology was used to save energy loss.The results indicate that the device can load current generation and has the advantage of voltage stability,small harmonics,flexible regulation of voltage and frequency.</p></abstract>
+<kwd-group kwd-group-type="author-provided">
+<kwd>无功补偿</kwd><kwd>动态响应</kwd><kwd>抑制谐波或滤波</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="author-provided" xml:lang="en">
+<kwd>reactive power compensation</kwd><kwd>dynamic response</kwd><kwd>suppression of harmonics or filtering</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>山东省科学技术厅重点研发计划项目</funding-source>
+<award-id>2018GGX101022</award-id></award-group>
+<funding-statement>山东省科学技术厅重点研发计划项目(2018GGX101022)</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+</article>
