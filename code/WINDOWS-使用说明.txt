@@ -1,0 +1,21 @@
+维普 Excel → ZD_JATS XML 转换器（Windows 版）
+
+【下载与解压】
+1. 从 GitHub Actions 下载 windows-exe 压缩包
+2. 解压整个 zip，不要只复制单个 exe 文件
+3. 进入 trans-converter 文件夹，双击 trans-converter.exe
+
+【若 Windows 提示“无法运行”或 SmartScreen 拦截】
+1. 点击“更多信息” → “仍要运行”
+2. 或将程序目录加入杀毒软件白名单（PyInstaller 打包程序可能被误报）
+
+【若双击后闪退】
+查看崩溃日志：
+  %LOCALAPPDATA%\trans-converter-crash.log
+（在资源管理器地址栏输入上述路径）
+
+【使用步骤】
+1. 选择维普 Excel 文件 (.xlsx)
+2. 选择输出目录
+3. 如需复制 PDF，勾选选项并选择 PDF 根目录
+4. 填写期刊元数据后点击「开始转换」

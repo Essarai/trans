@@ -9,6 +9,7 @@ venv/
 build/
 dist/
 *.spec
+!code/trans-converter.spec
 
 # OS
 .DS_Store

@@ -11,6 +11,7 @@ import sys
 import io
 import os
 import threading
+import traceback
 from pathlib import Path
 from typing import Optional
 
@@ -101,10 +102,10 @@ class ConverterApp(QMainWindow):
         meta_layout.setContentsMargins(12, 16, 12, 12)
         meta_layout.setSpacing(10)
 
-        self._add_meta_field(meta_layout, 0, 0, "期刊中文名:", "journal_title", "如：机电工程")
-        self._add_meta_field(meta_layout, 1, 0, "ISSN 号:", "issn", "如：1001-4551")
-        self._add_meta_field(meta_layout, 0, 2, "国内刊号:", "cn", "如：33-1088/TH")
-        self._add_meta_field(meta_layout, 1, 2, "出版社:", "publisher", "如：浙江大学")
+        self._add_meta_field(meta_layout, 0, 0, "期刊中文名:", "journal_title", "机电工程")
+        self._add_meta_field(meta_layout, 1, 0, "ISSN 号:", "issn", "1001-4551")
+        self._add_meta_field(meta_layout, 0, 2, "国内刊号:", "cn", "33-1088/TH")
+        self._add_meta_field(meta_layout, 1, 2, "出版社:", "publisher", "浙江大学")
         main_layout.addWidget(meta_group)
 
         # 4. 控制按钮区
@@ -247,6 +248,25 @@ class ConverterApp(QMainWindow):
         threading.Thread(target=worker, daemon=True).start()
 
 
+def _crash_log_path() -> Path:
+    if getattr(sys, "frozen", False):
+        base = os.environ.get("LOCALAPPDATA") or str(Path.home())
+        return Path(base) / "trans-converter-crash.log"
+    return Path(__file__).resolve().parent / "trans-converter-crash.log"
+
+
+def _write_crash_log(exc: BaseException) -> Path:
+    log_path = _crash_log_path()
+    log_path.write_text(
+        "维普 Excel → ZD_JATS XML 转换器启动失败\n"
+        f"Python: {sys.version}\n"
+        f"Executable: {getattr(sys, 'executable', '')}\n\n"
+        f"{traceback.format_exc()}",
+        encoding="utf-8",
+    )
+    return log_path
+
+
 def run_gui() -> None:
     app = QApplication(sys.argv)
     window = ConverterApp()
@@ -255,4 +275,20 @@ def run_gui() -> None:
 
 
 if __name__ == "__main__":
-    run_gui()
+    try:
+        run_gui()
+    except Exception as exc:
+        log_path = _write_crash_log(exc)
+        try:
+            from PyQt6.QtWidgets import QApplication, QMessageBox
+
+            app = QApplication.instance() or QApplication(sys.argv)
+            QMessageBox.critical(
+                None,
+                "启动失败",
+                f"程序无法启动，错误已写入:\n{log_path}\n\n{exc}",
+            )
+        except Exception:
+            print(f"[error] 程序无法启动，错误已写入: {log_path}", file=sys.stderr)
+            print(exc, file=sys.stderr)
+        sys.exit(1)

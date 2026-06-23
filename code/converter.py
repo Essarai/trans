@@ -16,7 +16,9 @@ converter.py - 维普 Excel -> 浙大社 ZD_JATS XML 转换器
         --journal-title 机电工程 --issn 1001-4551 --cn 33-1088/TH --publisher 浙江大学
 
     python3 converter.py --with-pdf --pdf-dir ./PDF
-    python3 converter.py --gui
+
+    # 图形界面
+    python3 converter_gui.py
 """
 
 from __future__ import annotations
@@ -954,7 +956,7 @@ def convert(
     """执行转换.
 
     参数:
-        journal:    期刊元数据 (JournalMeta 或 dict，None 则从 Excel/DOI 推断)
+        journal:    期刊元数据 (JournalMeta 或 dict）
         xlsx_path:  维普 Excel 文件路径
         pdf_dir:    PDF 根目录 (递归查找子目录); None 则不复制 PDF
         output_dir: XML 输出目录
@@ -1029,17 +1031,7 @@ def convert(
 #     return False
 
 
-def run_gui() -> None:
-    """启动 Tkinter 图形界面."""
-    from converter_gui import run_gui as _run
-    _run()
-
-
 def main():
-    if "--gui" in sys.argv:
-        run_gui()
-        return
-
     ap = argparse.ArgumentParser(description="维普 Excel -> 浙大社 ZD_JATS XML")
     ap.add_argument(
         "--xlsx", default=str(DEFAULT_XLSX),
@@ -1061,7 +1053,6 @@ def main():
     ap.add_argument("--issn", help="ISSN (默认: 1001-4551; 也可从 Excel 列或 DOI 推断)")
     ap.add_argument("--cn", help="国内刊号 CN (默认: 33-1088/TH)")
     ap.add_argument("--publisher", help="出版社 (默认: 浙江大学)")
-    ap.add_argument("--gui", action="store_true", help="启动图形界面")
     # ap.add_argument(
     #     "--validate", metavar="REF_DIR",
     #     help="转换后与参考样例目录逐文件比对",
