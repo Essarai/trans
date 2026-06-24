@@ -20,7 +20,7 @@ from contextlib import redirect_stderr, redirect_stdout
 from PyQt6.QtCore import Qt, QObject, pyqtSignal
 from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
-    QGridLayout, QLabel, QLineEdit, QPushButton, QCheckBox, 
+    QGridLayout, QLabel, QLineEdit, QPushButton,
     QTextEdit, QFileDialog, QMessageBox, QGroupBox
 )
 from PyQt6.QtGui import QFont
@@ -32,6 +32,7 @@ from converter import (
     DEFAULT_PDF_DIR,
     DEFAULT_XLSX,
     convert,
+    validate_issn,
 )
 
 
@@ -52,7 +53,6 @@ class ConverterApp(QMainWindow):
         
         self.fields: dict[str, QLineEdit] = {}
         self._btn_convert: Optional[QPushButton] = None
-        self._chk_pdf: Optional[QCheckBox] = None
         self._log: Optional[QTextEdit] = None
 
         self._init_ui()
@@ -87,12 +87,8 @@ class ConverterApp(QMainWindow):
         paths_layout.setSpacing(10)
 
         self._add_path_row(paths_layout, 0, "Excel 表格:", "xlsx", "点击「浏览」选择维普 Excel 文件 (.xlsx)", self._browse_file)
-        self._add_path_row(paths_layout, 1, "PDF 目录:", "pdf_dir", "PDF 根目录，支持子目录递归查找（可选）", self._browse_dir)
+        self._add_path_row(paths_layout, 1, "PDF 目录:", "pdf_dir", "PDF 根目录（必填），支持子目录递归查找", self._browse_dir)
         self._add_path_row(paths_layout, 2, "输出目录:", "output_dir", "XML 输出目录，不存在将自动创建", self._browse_dir)
-
-        self._chk_pdf = QCheckBox("同时复制 PDF 到输出目录")
-        self._chk_pdf.setFont(QFont("Arial", 13))
-        paths_layout.addWidget(self._chk_pdf, 3, 0, 1, 3)
         main_layout.addWidget(paths_group)
 
         # 3. 期刊元数据区块
@@ -102,10 +98,10 @@ class ConverterApp(QMainWindow):
         meta_layout.setContentsMargins(12, 16, 12, 12)
         meta_layout.setSpacing(10)
 
-        self._add_meta_field(meta_layout, 0, 0, "期刊中文名:", "journal_title", "机电工程")
-        self._add_meta_field(meta_layout, 1, 0, "ISSN 号:", "issn", "1001-4551")
-        self._add_meta_field(meta_layout, 0, 2, "国内刊号:", "cn", "33-1088/TH")
-        self._add_meta_field(meta_layout, 1, 2, "出版社:", "publisher", "浙江大学")
+        self._add_meta_field(meta_layout, 0, 0, "期刊中文名:", "journal_title", "必填")
+        self._add_meta_field(meta_layout, 1, 0, "ISSN 号:", "issn", "必填，格式：####-####")
+        self._add_meta_field(meta_layout, 0, 2, "国内刊号:", "cn", "选填")
+        self._add_meta_field(meta_layout, 1, 2, "出版社:", "publisher", "选填")
         main_layout.addWidget(meta_group)
 
         # 4. 控制按钮区
@@ -135,7 +131,7 @@ class ConverterApp(QMainWindow):
         log_layout.addWidget(self._log)
         main_layout.addWidget(log_group)
 
-        self._log_msg("就绪。输入框内灰色文字为占位提示，直接点击即可填写。")
+        self._log_msg("就绪。输入框内灰色文字为占位提示，直接点击即可填写，不写默认为空")
 
     def _add_path_row(self, layout: QGridLayout, row: int, label_text: str, key: str, placeholder: str, callback: callable) -> None:
         lbl = QLabel(label_text)
@@ -190,10 +186,9 @@ class ConverterApp(QMainWindow):
             self._log.ensureCursorVisible()
 
     def _journal_overrides(self) -> dict[str, str]:
-        # 如果用户未填写，则自动降级使用核心文件里的默认配置项
         return {
-            "title_zh": self._get("journal_title") or DEFAULT_JOURNAL_META.title_zh,
-            "issn": self._get("issn") or DEFAULT_JOURNAL_META.issn,
+            "title_zh": self._get("journal_title"),
+            "issn": self._get("issn"),
             "cn": self._get("cn") or DEFAULT_JOURNAL_META.cn,
             "publisher": self._get("publisher") or DEFAULT_JOURNAL_META.publisher,
         }
@@ -203,16 +198,38 @@ class ConverterApp(QMainWindow):
     def _start_convert(self) -> None:
         xlsx = self._get("xlsx") or str(DEFAULT_XLSX)
         output = self._get("output_dir") or str(DEFAULT_OUTPUT)
-        pdf_dir = None
-        if self._chk_pdf and self._chk_pdf.isChecked():
-            pdf_dir = self._get("pdf_dir") or str(DEFAULT_PDF_DIR)
+        pdf_dir = self._get("pdf_dir") or str(DEFAULT_PDF_DIR)
+
+        errors: list[str] = []
+        journal_title = self._get("journal_title")
+        issn = self._get("issn")
+        if not journal_title:
+            errors.append("[error] 期刊中文名为必填")
+        if not issn:
+            errors.append("[error] ISSN 号为必填")
+        elif not validate_issn(issn):
+            errors.append(
+                "[error] ISSN 格式不对，正确格式：####-####"
+                "（8 位数字，中间用 - 连接，末位为校验码，可为数字或 X）"
+            )
+        if not Path(xlsx).is_file():
+            errors.append(f"[error] Excel 不存在: {xlsx}")
+        if not Path(pdf_dir).is_dir():
+            errors.append(f"[error] PDF 目录不存在: {pdf_dir}")
+        if errors:
+            self._log_msg("=" * 50)
+            for msg in errors:
+                self._log_msg(msg)
+            QMessageBox.critical(self, "参数错误", "\n".join(errors))
+            return
 
         journal = self._journal_overrides()
         if self._btn_convert:
             self._btn_convert.setEnabled(False)
-            
+
         self._log_msg("=" * 50)
         self._log_msg(f"[开始] {Path(xlsx).name}")
+        self._log_msg(f"[info] PDF 目录: {pdf_dir}")
 
         def worker() -> None:
             buf = io.StringIO()
@@ -221,11 +238,13 @@ class ConverterApp(QMainWindow):
             try:
                 with redirect_stdout(buf), redirect_stderr(buf):
                     count = convert(journal, xlsx, pdf_dir, output)
-                ok = count > 0
-            except Exception as exc:
-                buf.write(f"[error] {exc}\n")
-
-            output_text = buf.getvalue()
+                output_text = buf.getvalue()
+                has_error = "[error]" in output_text or "PDF 未找到" in output_text
+                ok = count > 0 and not has_error
+            except Exception:
+                buf.write(f"[error] 转换异常:\n{traceback.format_exc()}")
+                output_text = buf.getvalue()
+                ok = False
 
             for line in output_text.splitlines():
                 if line.strip():
@@ -240,7 +259,7 @@ class ConverterApp(QMainWindow):
                         f"转换成功，共生成 {count} 个 XML。\n输出目录:\n{Path(output)}",
                     )
                 else:
-                    QMessageBox.critical(self, "失败", "转换未完成，请查看日志。")
+                    QMessageBox.critical(self, "失败", "转换未完成，请查看运行日志中的错误信息。")
 
             from PyQt6.QtCore import QTimer
             QTimer.singleShot(0, finish)

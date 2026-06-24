@@ -11,12 +11,6 @@ converter.py - 维普 Excel -> 浙大社 ZD_JATS XML 转换器
         "./output",
     )
 
-    # 命令行
-    python3 converter.py --xlsx 维普数据.xlsx --output-dir ./output \\
-        --journal-title 机电工程 --issn 1001-4551 --cn 33-1088/TH --publisher 浙江大学
-
-    python3 converter.py --with-pdf --pdf-dir ./PDF
-
     # 图形界面
     python3 converter_gui.py
 """
@@ -65,6 +59,28 @@ for _field, aliases in {
         _JOURNAL_COL_MAP[alias] = _field
 
 _ISSN_FROM_DOI_RE = re.compile(r"issn[\./](\d{4}-\d{3,4})", re.IGNORECASE)
+# 8 位数字，两段各 4 位，中间连字符；末位为校验码（数字或 X）
+ISSN_FORMAT_RE = re.compile(r"^\d{4}-\d{3}[\dXx]$")
+
+
+def issn_check_digit(digits7: str) -> str:
+    """根据前 7 位流水号计算 ISSN 校验码 (mod 11)。"""
+    total = sum(int(d) * w for d, w in zip(digits7, (8, 7, 6, 5, 4, 3, 2)))
+    check = 11 - (total % 11)
+    if check == 10:
+        return "X"
+    if check == 11:
+        return "0"
+    return str(check)
+
+
+def validate_issn(issn: str) -> bool:
+    """校验 ISSN 格式与校验码。"""
+    s = (issn or "").strip()
+    if not ISSN_FORMAT_RE.match(s):
+        return False
+    digits = s.replace("-", "").upper()
+    return digits[7] == issn_check_digit(digits[:7])
 
 
 def infer_issn_from_doi(doi: str) -> str:
@@ -174,6 +190,11 @@ _SUP_SUB_PATTERN = re.compile(
     r"\^\(([^)]+)\)"
     r"|_\(([^)]+)\)"
 )
+# Excel 中可能已是最终标注 (如 <sub>2</sub>)，转义时需保留这些标签
+_INLINE_MARKUP_RE = re.compile(
+    r"</?(?:sub|sup)(?:\s[^>]*)?>",
+    re.IGNORECASE,
+)
 _EMAIL_ADDR_RE = re.compile(r"[\w.\-+]+@[\w.\-]+\.\w+")
 
 
@@ -193,14 +214,33 @@ def _restore_emails(text: str, emails: list[str]) -> str:
     return text
 
 
+def _protect_inline_markup(text: str) -> tuple[str, list[str]]:
+    """保护已有的 <sub>/<sup> 标签，避免 xml_escape 转义 <>。"""
+    tags: list[str] = []
+
+    def repl(m: re.Match) -> str:
+        tags.append(m.group(0))
+        return f"\x00TAG{len(tags) - 1}\x00"
+
+    return _INLINE_MARKUP_RE.sub(repl, text), tags
+
+
+def _restore_inline_markup(text: str, tags: list[str]) -> str:
+    for i, tag in enumerate(tags):
+        text = text.replace(f"\x00TAG{i}\x00", tag)
+    return text
+
+
 def convert_super_sub(text: Optional[str]) -> str:
     """维普 ^X / ^(xxx) -> <sup>; _X / _(xxx) -> <sub>.
 
+    若文本已含 <sub>/<sup> 等最终标注，保留原标签不做 <> 转义。
     邮箱地址中的下划线不做上下标转换.
     """
     if not text:
         return ""
     protected, emails = _protect_emails(str(text))
+    protected, markup = _protect_inline_markup(protected)
     escaped = xml_escape(protected)
 
     def repl(m: re.Match) -> str:
@@ -210,7 +250,9 @@ def convert_super_sub(text: Optional[str]) -> str:
             return f"<sub>{m.group(2)}</sub>"
         return m.group(0)
 
-    return _restore_emails(_SUP_SUB_PATTERN.sub(repl, escaped), emails)
+    result = _SUP_SUB_PATTERN.sub(repl, escaped)
+    result = _restore_inline_markup(result, markup)
+    return _restore_emails(result, emails)
 
 
 # ============== 解析函数 ==============
@@ -744,12 +786,12 @@ def build_issue_xml(
             art_fname = doi_to_filename(art.doi)
             art_href = f"..\\{art_fname}\\{art_fname}.xml"# 所有路径符号须为windows的，即\，而非/
             block = [f'<article-file xlink:href="{art_href}">']
-            block.append(f"<article-title>{xml_escape(art.title_zh)}</article-title>")
+            block.append(f"<article-title>{convert_super_sub(art.title_zh)}</article-title>")
             if art.fpage:
                 block.append(f"<page>{xml_escape(art.fpage)}</page>")
             if art.title_en: # 英文标题
                 block.append('<trans-article xml:lang="en">')
-                block.append(f"<article-title>{xml_escape(art.title_en)}</article-title>")
+                block.append(f"<article-title>{convert_super_sub(art.title_en)}</article-title>")
                 block.append("</trans-article>")
             block.append("</article-file>")
             p.append("\n".join(block))
